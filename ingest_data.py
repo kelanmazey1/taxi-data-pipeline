@@ -1,4 +1,6 @@
 import os
+import sys
+import urllib.request
 import pandas as pd
 import argparse
 from time import time
@@ -16,10 +18,16 @@ def main(params):
     # Download and convert to csv
     print('starting download')
     csv_name = 'output.csv'
-    df_pq = pd.read_parquet(url)
-    print('download completed, converting to csv') 
-    df_pq.to_csv(csv_name)
-    print('csv conversion complete')
+    if url[-7:] == 'parquet':
+        df_pq = pd.read_parquet(url)
+        print('download completed, converting to csv') 
+        df_pq.to_csv(csv_name)
+        print('csv conversion complete')
+    elif url[-3:] == 'csv':
+        urllib.request.urlretrieve(url, csv_name)
+        print('csv download complete')
+    
+    
 
     engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{db}')
 
@@ -28,6 +36,12 @@ def main(params):
     df_iter = pd.read_csv(csv_name, iterator=True, chunksize=100000)
 
     df = next(df_iter)
+
+    # Handles if csv's are added, is only used for shorter tables
+    if url[-3:] == 'csv':
+        pd.read_csv(csv_name)
+        df.to_sql(name=table_name, con=engine, if_exists='replace')
+        sys.exit(0)
 
     # Load in column headers first
     df = df.drop(df.columns[0], axis=1)
