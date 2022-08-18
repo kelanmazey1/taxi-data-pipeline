@@ -1,0 +1,8 @@
+[2022-08-18 09:11:56,900] {processor.py:163} INFO - Started process (PID=7998) to work on /opt/airflow/dags/yellow_taxi_data.py
+[2022-08-18 09:11:56,900] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data.py for tasks to queue
+[2022-08-18 09:11:56,901] {logging_mixin.py:109} INFO - [2022-08-18 09:11:56,901] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data.py
+[2022-08-18 09:11:57,360] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data.py
+[2022-08-18 09:11:57,478] {logging_mixin.py:109} INFO - [2022-08-18 09:11:57,478] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:11:57,481] {logging_mixin.py:109} INFO - [2022-08-18 09:11:57,481] {dag.py:2415} INFO - Creating ORM DAG for yellow_taxi_data_ingest
+[2022-08-18 09:11:57,487] {logging_mixin.py:109} INFO - [2022-08-18 09:11:57,487] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:11:57,498] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data.py took 0.601 seconds
