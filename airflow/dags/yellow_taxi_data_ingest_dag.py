@@ -1,5 +1,7 @@
 import os
 
+from datetime import datetime
+
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.bash import BashOperator
@@ -12,9 +14,12 @@ from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExte
 PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
-dataset_file = "yellow_tripdata_2021-01.parquet"
-dataset_url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
-path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
+# Below line used if wanting to pass in custom date variable, using other way for course homework
+# dataset_file = "yellow_tripdata_{{ dag_run.conf['date'] }}.parquet"
+# dataset_file = "yellow_tripdata_{{ execution_date.strftime('%Y-%m') }}.parquet"
+# dataset_url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+
+AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", "trips_data_all")
 
 def upload_to_gcs(bucket, object_name, local_file):
@@ -37,7 +42,6 @@ def upload_to_gcs(bucket, object_name, local_file):
   blob = bucket.blob(object_name)
   blob.upload_from_filename(local_file)
 
-
 default_args = {
   "owner": "airflow",
   "start_date": days_ago(1),
@@ -45,20 +49,27 @@ default_args = {
   "retries": 1,
 }
 
-# DAG declaration using a context manager
+URL_PREFIX = 'https://d37ci6vzurychx.cloudfront.net/trip-data'
 
+YELLOW_TAXI_URL_TEMPLATE = URL_PREFIX + '/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
+YELLOW_TAXI_FILE_TEMPLATE = AIRFLOW_HOME + '/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
+YELLOW_TAXI_GCS_PATH_TEMPLATE = "raw/yellow_tripdata/{{ execution_date.strftime(\'%Y-%m\') }}/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet"
+YELLOW_TAXI_TABLE_NAME_TEMPLATE = "yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}"
+
+# DAG declaration using a context manager
 with DAG(
-  dag_id="data_ingestion_gcs_dag",
-  schedule_interval="@daily",
+  dag_id="yellow_taxi_data_ingest",
+  schedule_interval="0 1 1 * *",
   default_args=default_args,
-  catchup=False,
-  max_active_runs=1,
+  start_date=datetime(2019, 1, 1),
+  catchup=True,
+  max_active_runs=3,
   tags=['dtc-de'],
-) as dag:
+) as yellow_taxi_data_ingest:
 
   download_data_set_task = BashOperator(
     task_id="download_dataset_task",
-    bash_command=f"curl -sSL {dataset_url} > {path_to_local_home}/{dataset_file}"
+    bash_command=f"curl -sSLf {YELLOW_TAXI_URL_TEMPLATE} > {YELLOW_TAXI_FILE_TEMPLATE}"
   )
 
   local_to_gcs_task = PythonOperator(
@@ -66,8 +77,8 @@ with DAG(
     python_callable=upload_to_gcs,
     op_kwargs={
       "bucket": BUCKET,
-      "object_name": f"raw/{dataset_file}",
-      "local_file": f"{path_to_local_home}/{dataset_file}",
+      "object_name": YELLOW_TAXI_GCS_PATH_TEMPLATE,
+      "local_file": YELLOW_TAXI_FILE_TEMPLATE,
     },
   )
 
@@ -77,11 +88,11 @@ with DAG(
       "tableReference": {
         "projectId": PROJECT_ID,
         "datasetId": BIGQUERY_DATASET,
-        "tableId": "external_table",
+        "tableId": YELLOW_TAXI_TABLE_NAME_TEMPLATE,
       },
       "externalDataConfiguration": {
         "sourceFormat": "PARQUET",
-        "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+        "sourceUris": [f"gs://{BUCKET}/{YELLOW_TAXI_GCS_PATH_TEMPLATE}"],
       },
     },
   )

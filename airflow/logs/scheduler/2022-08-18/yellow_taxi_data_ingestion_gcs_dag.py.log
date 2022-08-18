@@ -1,0 +1,1546 @@
+[2022-08-18 07:56:52,273] {processor.py:163} INFO - Started process (PID=2535) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:56:52,274] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 07:56:52,274] {logging_mixin.py:109} INFO - [2022-08-18 07:56:52,274] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:56:52,720] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:56:52,836] {logging_mixin.py:109} INFO - [2022-08-18 07:56:52,836] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 07:56:52,846] {logging_mixin.py:109} INFO - [2022-08-18 07:56:52,846] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 07:56:52,857] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.586 seconds
+[2022-08-18 07:57:22,921] {processor.py:163} INFO - Started process (PID=2566) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:57:22,922] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 07:57:22,922] {logging_mixin.py:109} INFO - [2022-08-18 07:57:22,922] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:57:23,343] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:57:23,348] {logging_mixin.py:109} INFO - [2022-08-18 07:57:23,348] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 07:57:23,359] {logging_mixin.py:109} INFO - [2022-08-18 07:57:23,359] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 07:57:23,368] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.448 seconds
+[2022-08-18 07:57:53,413] {processor.py:163} INFO - Started process (PID=2607) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:57:53,414] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 07:57:53,414] {logging_mixin.py:109} INFO - [2022-08-18 07:57:53,414] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:57:53,834] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:57:53,840] {logging_mixin.py:109} INFO - [2022-08-18 07:57:53,840] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 07:57:53,850] {logging_mixin.py:109} INFO - [2022-08-18 07:57:53,850] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 07:57:53,857] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.446 seconds
+[2022-08-18 07:58:23,908] {processor.py:163} INFO - Started process (PID=2647) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:58:23,909] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 07:58:23,909] {logging_mixin.py:109} INFO - [2022-08-18 07:58:23,909] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:58:24,395] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:58:24,402] {logging_mixin.py:109} INFO - [2022-08-18 07:58:24,402] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 07:58:24,415] {logging_mixin.py:109} INFO - [2022-08-18 07:58:24,415] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 07:58:24,424] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.518 seconds
+[2022-08-18 07:58:54,477] {processor.py:163} INFO - Started process (PID=2678) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:58:54,478] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 07:58:54,478] {logging_mixin.py:109} INFO - [2022-08-18 07:58:54,478] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:58:54,909] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:58:54,916] {logging_mixin.py:109} INFO - [2022-08-18 07:58:54,916] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 07:58:54,926] {logging_mixin.py:109} INFO - [2022-08-18 07:58:54,926] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 07:58:54,934] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.458 seconds
+[2022-08-18 07:59:24,985] {processor.py:163} INFO - Started process (PID=2718) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:59:24,986] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 07:59:24,986] {logging_mixin.py:109} INFO - [2022-08-18 07:59:24,986] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:59:25,428] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:59:25,436] {logging_mixin.py:109} INFO - [2022-08-18 07:59:25,436] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 07:59:25,448] {logging_mixin.py:109} INFO - [2022-08-18 07:59:25,447] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 07:59:25,457] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.473 seconds
+[2022-08-18 07:59:55,507] {processor.py:163} INFO - Started process (PID=2758) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:59:55,508] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 07:59:55,508] {logging_mixin.py:109} INFO - [2022-08-18 07:59:55,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:59:55,988] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 07:59:55,994] {logging_mixin.py:109} INFO - [2022-08-18 07:59:55,994] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 07:59:56,006] {logging_mixin.py:109} INFO - [2022-08-18 07:59:56,006] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 07:59:56,017] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.512 seconds
+[2022-08-18 08:00:26,072] {processor.py:163} INFO - Started process (PID=2789) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:00:26,073] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:00:26,073] {logging_mixin.py:109} INFO - [2022-08-18 08:00:26,073] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:00:26,537] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:00:26,542] {logging_mixin.py:109} INFO - [2022-08-18 08:00:26,542] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:00:26,552] {logging_mixin.py:109} INFO - [2022-08-18 08:00:26,552] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:00:26,560] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.489 seconds
+[2022-08-18 08:00:56,642] {processor.py:163} INFO - Started process (PID=2830) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:00:56,642] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:00:56,643] {logging_mixin.py:109} INFO - [2022-08-18 08:00:56,643] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:00:57,088] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:00:57,094] {logging_mixin.py:109} INFO - [2022-08-18 08:00:57,094] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:00:57,106] {logging_mixin.py:109} INFO - [2022-08-18 08:00:57,106] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:00:57,116] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.476 seconds
+[2022-08-18 08:01:27,169] {processor.py:163} INFO - Started process (PID=2861) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:01:27,172] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:01:27,172] {logging_mixin.py:109} INFO - [2022-08-18 08:01:27,172] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:01:27,663] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:01:27,669] {logging_mixin.py:109} INFO - [2022-08-18 08:01:27,669] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:01:27,680] {logging_mixin.py:109} INFO - [2022-08-18 08:01:27,680] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:01:27,689] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.522 seconds
+[2022-08-18 08:01:57,778] {processor.py:163} INFO - Started process (PID=2901) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:01:57,779] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:01:57,779] {logging_mixin.py:109} INFO - [2022-08-18 08:01:57,779] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:01:58,218] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:01:58,224] {logging_mixin.py:109} INFO - [2022-08-18 08:01:58,224] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:01:58,235] {logging_mixin.py:109} INFO - [2022-08-18 08:01:58,234] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:01:58,242] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.466 seconds
+[2022-08-18 08:02:28,289] {processor.py:163} INFO - Started process (PID=2941) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:02:28,290] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:02:28,290] {logging_mixin.py:109} INFO - [2022-08-18 08:02:28,290] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:02:28,725] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:02:28,730] {logging_mixin.py:109} INFO - [2022-08-18 08:02:28,730] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:02:28,740] {logging_mixin.py:109} INFO - [2022-08-18 08:02:28,740] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:02:28,748] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.461 seconds
+[2022-08-18 08:02:58,797] {processor.py:163} INFO - Started process (PID=2972) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:02:58,797] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:02:58,797] {logging_mixin.py:109} INFO - [2022-08-18 08:02:58,797] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:02:59,215] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:02:59,221] {logging_mixin.py:109} INFO - [2022-08-18 08:02:59,221] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:02:59,231] {logging_mixin.py:109} INFO - [2022-08-18 08:02:59,231] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:02:59,243] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.448 seconds
+[2022-08-18 08:03:29,293] {processor.py:163} INFO - Started process (PID=3012) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:03:29,294] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:03:29,294] {logging_mixin.py:109} INFO - [2022-08-18 08:03:29,294] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:03:29,716] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:03:29,722] {logging_mixin.py:109} INFO - [2022-08-18 08:03:29,722] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:03:29,731] {logging_mixin.py:109} INFO - [2022-08-18 08:03:29,731] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:03:29,739] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.449 seconds
+[2022-08-18 08:03:59,788] {processor.py:163} INFO - Started process (PID=3052) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:03:59,789] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:03:59,789] {logging_mixin.py:109} INFO - [2022-08-18 08:03:59,789] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:04:00,306] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:04:00,313] {logging_mixin.py:109} INFO - [2022-08-18 08:04:00,313] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:04:00,325] {logging_mixin.py:109} INFO - [2022-08-18 08:04:00,325] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:04:00,335] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.548 seconds
+[2022-08-18 08:04:30,421] {processor.py:163} INFO - Started process (PID=3083) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:04:30,422] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:04:30,422] {logging_mixin.py:109} INFO - [2022-08-18 08:04:30,422] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:04:30,878] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:04:30,884] {logging_mixin.py:109} INFO - [2022-08-18 08:04:30,884] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:04:30,894] {logging_mixin.py:109} INFO - [2022-08-18 08:04:30,894] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:04:30,903] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.484 seconds
+[2022-08-18 08:05:00,948] {processor.py:163} INFO - Started process (PID=3124) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:05:00,948] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:05:00,949] {logging_mixin.py:109} INFO - [2022-08-18 08:05:00,949] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:05:01,418] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:05:01,424] {logging_mixin.py:109} INFO - [2022-08-18 08:05:01,424] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:05:01,434] {logging_mixin.py:109} INFO - [2022-08-18 08:05:01,434] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:05:01,443] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.497 seconds
+[2022-08-18 08:05:31,494] {processor.py:163} INFO - Started process (PID=3164) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:05:31,495] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:05:31,495] {logging_mixin.py:109} INFO - [2022-08-18 08:05:31,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:05:31,988] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:05:31,995] {logging_mixin.py:109} INFO - [2022-08-18 08:05:31,994] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:05:32,006] {logging_mixin.py:109} INFO - [2022-08-18 08:05:32,006] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:05:32,019] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.528 seconds
+[2022-08-18 08:06:02,079] {processor.py:163} INFO - Started process (PID=3196) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:06:02,080] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:06:02,080] {logging_mixin.py:109} INFO - [2022-08-18 08:06:02,080] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:06:02,530] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:06:02,536] {logging_mixin.py:109} INFO - [2022-08-18 08:06:02,536] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:06:02,547] {logging_mixin.py:109} INFO - [2022-08-18 08:06:02,547] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:06:02,556] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.479 seconds
+[2022-08-18 08:06:32,607] {processor.py:163} INFO - Started process (PID=3236) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:06:32,608] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:06:32,609] {logging_mixin.py:109} INFO - [2022-08-18 08:06:32,609] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:06:33,085] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:06:33,091] {logging_mixin.py:109} INFO - [2022-08-18 08:06:33,091] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:06:33,101] {logging_mixin.py:109} INFO - [2022-08-18 08:06:33,101] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:06:33,110] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.505 seconds
+[2022-08-18 08:07:03,171] {processor.py:163} INFO - Started process (PID=3267) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:07:03,171] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:07:03,172] {logging_mixin.py:109} INFO - [2022-08-18 08:07:03,171] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:07:03,618] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:07:03,624] {logging_mixin.py:109} INFO - [2022-08-18 08:07:03,624] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:07:03,634] {logging_mixin.py:109} INFO - [2022-08-18 08:07:03,634] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:07:03,642] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.473 seconds
+[2022-08-18 08:07:33,713] {processor.py:163} INFO - Started process (PID=3307) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:07:33,714] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:07:33,715] {logging_mixin.py:109} INFO - [2022-08-18 08:07:33,715] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:07:34,137] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:07:34,142] {logging_mixin.py:109} INFO - [2022-08-18 08:07:34,142] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:07:34,152] {logging_mixin.py:109} INFO - [2022-08-18 08:07:34,152] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:07:34,160] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.448 seconds
+[2022-08-18 08:08:04,209] {processor.py:163} INFO - Started process (PID=3347) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:08:04,209] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:08:04,210] {logging_mixin.py:109} INFO - [2022-08-18 08:08:04,210] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:08:04,630] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:08:04,636] {logging_mixin.py:109} INFO - [2022-08-18 08:08:04,635] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:08:04,645] {logging_mixin.py:109} INFO - [2022-08-18 08:08:04,645] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:08:04,653] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.446 seconds
+[2022-08-18 08:08:34,706] {processor.py:163} INFO - Started process (PID=3378) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:08:34,708] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:08:34,708] {logging_mixin.py:109} INFO - [2022-08-18 08:08:34,708] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:08:35,128] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:08:35,133] {logging_mixin.py:109} INFO - [2022-08-18 08:08:35,133] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:08:35,143] {logging_mixin.py:109} INFO - [2022-08-18 08:08:35,143] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:08:35,152] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.448 seconds
+[2022-08-18 08:09:05,201] {processor.py:163} INFO - Started process (PID=3418) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:09:05,202] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:09:05,202] {logging_mixin.py:109} INFO - [2022-08-18 08:09:05,202] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:09:05,722] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:09:05,727] {logging_mixin.py:109} INFO - [2022-08-18 08:09:05,727] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:09:05,737] {logging_mixin.py:109} INFO - [2022-08-18 08:09:05,737] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:09:05,745] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.545 seconds
+[2022-08-18 08:09:35,829] {processor.py:163} INFO - Started process (PID=3459) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:09:35,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:09:35,831] {logging_mixin.py:109} INFO - [2022-08-18 08:09:35,831] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:09:36,297] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:09:36,303] {logging_mixin.py:109} INFO - [2022-08-18 08:09:36,303] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:09:36,315] {logging_mixin.py:109} INFO - [2022-08-18 08:09:36,315] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:09:36,325] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.497 seconds
+[2022-08-18 08:10:06,371] {processor.py:163} INFO - Started process (PID=3490) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:10:06,372] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:10:06,372] {logging_mixin.py:109} INFO - [2022-08-18 08:10:06,372] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:10:06,792] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:10:06,798] {logging_mixin.py:109} INFO - [2022-08-18 08:10:06,798] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:10:06,808] {logging_mixin.py:109} INFO - [2022-08-18 08:10:06,808] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:10:06,815] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.446 seconds
+[2022-08-18 08:10:36,868] {processor.py:163} INFO - Started process (PID=3530) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:10:36,869] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:10:36,870] {logging_mixin.py:109} INFO - [2022-08-18 08:10:36,870] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:10:37,289] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:10:37,294] {logging_mixin.py:109} INFO - [2022-08-18 08:10:37,294] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:10:37,304] {logging_mixin.py:109} INFO - [2022-08-18 08:10:37,304] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:10:37,312] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.447 seconds
+[2022-08-18 08:11:07,361] {processor.py:163} INFO - Started process (PID=3568) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:11:07,362] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:11:07,362] {logging_mixin.py:109} INFO - [2022-08-18 08:11:07,362] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:11:07,848] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:11:07,855] {logging_mixin.py:109} INFO - [2022-08-18 08:11:07,854] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:11:07,868] {logging_mixin.py:109} INFO - [2022-08-18 08:11:07,868] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:11:07,877] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.518 seconds
+[2022-08-18 08:11:37,929] {processor.py:163} INFO - Started process (PID=3601) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:11:37,930] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:11:37,931] {logging_mixin.py:109} INFO - [2022-08-18 08:11:37,931] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:11:38,443] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:11:38,450] {logging_mixin.py:109} INFO - [2022-08-18 08:11:38,449] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:11:38,462] {logging_mixin.py:109} INFO - [2022-08-18 08:11:38,462] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:11:38,472] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.544 seconds
+[2022-08-18 08:12:08,514] {processor.py:163} INFO - Started process (PID=3641) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:12:08,515] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:12:08,516] {logging_mixin.py:109} INFO - [2022-08-18 08:12:08,516] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:12:09,000] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:12:09,013] {logging_mixin.py:109} INFO - [2022-08-18 08:12:09,012] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:12:09,028] {logging_mixin.py:109} INFO - [2022-08-18 08:12:09,028] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:12:09,038] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.526 seconds
+[2022-08-18 08:12:39,091] {processor.py:163} INFO - Started process (PID=3672) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:12:39,092] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:12:39,092] {logging_mixin.py:109} INFO - [2022-08-18 08:12:39,092] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:12:39,550] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:12:39,558] {logging_mixin.py:109} INFO - [2022-08-18 08:12:39,557] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:12:39,571] {logging_mixin.py:109} INFO - [2022-08-18 08:12:39,571] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:12:39,579] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.490 seconds
+[2022-08-18 08:13:09,649] {processor.py:163} INFO - Started process (PID=3712) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:13:09,650] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:13:09,651] {logging_mixin.py:109} INFO - [2022-08-18 08:13:09,650] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:13:10,103] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:13:10,109] {logging_mixin.py:109} INFO - [2022-08-18 08:13:10,109] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:13:10,120] {logging_mixin.py:109} INFO - [2022-08-18 08:13:10,120] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:13:10,128] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.481 seconds
+[2022-08-18 08:13:40,182] {processor.py:163} INFO - Started process (PID=3752) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:13:40,183] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:13:40,184] {logging_mixin.py:109} INFO - [2022-08-18 08:13:40,184] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:13:40,760] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:13:40,768] {logging_mixin.py:109} INFO - [2022-08-18 08:13:40,767] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:13:40,781] {logging_mixin.py:109} INFO - [2022-08-18 08:13:40,781] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:13:40,792] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.612 seconds
+[2022-08-18 08:14:10,843] {processor.py:163} INFO - Started process (PID=3784) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:14:10,844] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:14:10,844] {logging_mixin.py:109} INFO - [2022-08-18 08:14:10,844] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:14:11,292] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:14:11,299] {logging_mixin.py:109} INFO - [2022-08-18 08:14:11,298] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:14:11,309] {logging_mixin.py:109} INFO - [2022-08-18 08:14:11,308] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:14:11,316] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.475 seconds
+[2022-08-18 08:14:41,365] {processor.py:163} INFO - Started process (PID=3824) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:14:41,366] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:14:41,366] {logging_mixin.py:109} INFO - [2022-08-18 08:14:41,366] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:14:41,887] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:14:41,895] {logging_mixin.py:109} INFO - [2022-08-18 08:14:41,895] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:14:41,907] {logging_mixin.py:109} INFO - [2022-08-18 08:14:41,907] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:14:41,920] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.557 seconds
+[2022-08-18 08:15:11,983] {processor.py:163} INFO - Started process (PID=3856) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:15:11,984] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:15:11,984] {logging_mixin.py:109} INFO - [2022-08-18 08:15:11,984] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:15:12,452] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:15:12,459] {logging_mixin.py:109} INFO - [2022-08-18 08:15:12,458] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:15:12,470] {logging_mixin.py:109} INFO - [2022-08-18 08:15:12,470] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:15:12,479] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.497 seconds
+[2022-08-18 08:15:42,531] {processor.py:163} INFO - Started process (PID=3896) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:15:42,532] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:15:42,533] {logging_mixin.py:109} INFO - [2022-08-18 08:15:42,533] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:15:42,994] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:15:43,001] {logging_mixin.py:109} INFO - [2022-08-18 08:15:43,001] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:15:43,016] {logging_mixin.py:109} INFO - [2022-08-18 08:15:43,016] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:15:43,030] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.501 seconds
+[2022-08-18 08:16:13,119] {processor.py:163} INFO - Started process (PID=3936) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:16:13,120] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:16:13,120] {logging_mixin.py:109} INFO - [2022-08-18 08:16:13,120] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:16:13,618] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:16:13,627] {logging_mixin.py:109} INFO - [2022-08-18 08:16:13,627] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:16:13,639] {logging_mixin.py:109} INFO - [2022-08-18 08:16:13,639] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:16:13,648] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.531 seconds
+[2022-08-18 08:16:43,704] {processor.py:163} INFO - Started process (PID=3967) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:16:43,706] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:16:43,706] {logging_mixin.py:109} INFO - [2022-08-18 08:16:43,706] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:16:44,156] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:16:44,161] {logging_mixin.py:109} INFO - [2022-08-18 08:16:44,161] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:16:44,172] {logging_mixin.py:109} INFO - [2022-08-18 08:16:44,172] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:16:44,180] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.478 seconds
+[2022-08-18 08:17:14,263] {processor.py:163} INFO - Started process (PID=4007) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:17:14,264] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:17:14,265] {logging_mixin.py:109} INFO - [2022-08-18 08:17:14,265] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:17:14,777] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:17:14,783] {logging_mixin.py:109} INFO - [2022-08-18 08:17:14,782] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:17:14,794] {logging_mixin.py:109} INFO - [2022-08-18 08:17:14,794] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:17:14,802] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.541 seconds
+[2022-08-18 08:17:44,860] {processor.py:163} INFO - Started process (PID=4048) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:17:44,861] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:17:44,862] {logging_mixin.py:109} INFO - [2022-08-18 08:17:44,862] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:17:45,318] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:17:45,325] {logging_mixin.py:109} INFO - [2022-08-18 08:17:45,324] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:17:45,335] {logging_mixin.py:109} INFO - [2022-08-18 08:17:45,335] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:17:45,343] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.486 seconds
+[2022-08-18 08:18:15,402] {processor.py:163} INFO - Started process (PID=4079) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:18:15,403] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:18:15,403] {logging_mixin.py:109} INFO - [2022-08-18 08:18:15,403] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:18:15,856] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:18:15,862] {logging_mixin.py:109} INFO - [2022-08-18 08:18:15,862] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:18:15,875] {logging_mixin.py:109} INFO - [2022-08-18 08:18:15,875] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:18:15,886] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.485 seconds
+[2022-08-18 08:18:45,936] {processor.py:163} INFO - Started process (PID=4119) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:18:45,936] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:18:45,937] {logging_mixin.py:109} INFO - [2022-08-18 08:18:45,937] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:18:46,380] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:18:46,386] {logging_mixin.py:109} INFO - [2022-08-18 08:18:46,386] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:18:46,396] {logging_mixin.py:109} INFO - [2022-08-18 08:18:46,396] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:18:46,404] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.470 seconds
+[2022-08-18 08:19:16,453] {processor.py:163} INFO - Started process (PID=4150) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:19:16,454] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:19:16,455] {logging_mixin.py:109} INFO - [2022-08-18 08:19:16,455] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:19:16,924] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:19:16,930] {logging_mixin.py:109} INFO - [2022-08-18 08:19:16,930] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:19:16,940] {logging_mixin.py:109} INFO - [2022-08-18 08:19:16,940] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:19:16,949] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.497 seconds
+[2022-08-18 08:19:47,000] {processor.py:163} INFO - Started process (PID=4190) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:19:47,001] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:19:47,001] {logging_mixin.py:109} INFO - [2022-08-18 08:19:47,001] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:19:47,433] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:19:47,438] {logging_mixin.py:109} INFO - [2022-08-18 08:19:47,438] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:19:47,448] {logging_mixin.py:109} INFO - [2022-08-18 08:19:47,448] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:19:47,456] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.458 seconds
+[2022-08-18 08:20:17,508] {processor.py:163} INFO - Started process (PID=4230) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:20:17,509] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:20:17,509] {logging_mixin.py:109} INFO - [2022-08-18 08:20:17,509] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:20:17,967] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:20:17,973] {logging_mixin.py:109} INFO - [2022-08-18 08:20:17,973] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:20:17,984] {logging_mixin.py:109} INFO - [2022-08-18 08:20:17,984] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:20:17,993] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.486 seconds
+[2022-08-18 08:20:48,043] {processor.py:163} INFO - Started process (PID=4261) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:20:48,044] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:20:48,044] {logging_mixin.py:109} INFO - [2022-08-18 08:20:48,044] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:20:48,494] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:20:48,503] {logging_mixin.py:109} INFO - [2022-08-18 08:20:48,503] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:20:48,520] {logging_mixin.py:109} INFO - [2022-08-18 08:20:48,519] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:20:48,534] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.493 seconds
+[2022-08-18 08:21:18,590] {processor.py:163} INFO - Started process (PID=4302) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:21:18,591] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:21:18,591] {logging_mixin.py:109} INFO - [2022-08-18 08:21:18,591] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:21:19,050] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:21:19,056] {logging_mixin.py:109} INFO - [2022-08-18 08:21:19,056] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:21:19,066] {logging_mixin.py:109} INFO - [2022-08-18 08:21:19,066] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:21:19,076] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.488 seconds
+[2022-08-18 08:21:49,147] {processor.py:163} INFO - Started process (PID=4340) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:21:49,148] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:21:49,149] {logging_mixin.py:109} INFO - [2022-08-18 08:21:49,149] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:21:49,720] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:21:49,728] {logging_mixin.py:109} INFO - [2022-08-18 08:21:49,728] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:21:49,740] {logging_mixin.py:109} INFO - [2022-08-18 08:21:49,740] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:21:49,750] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.606 seconds
+[2022-08-18 08:22:19,799] {processor.py:163} INFO - Started process (PID=4373) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:22:19,800] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:22:19,801] {logging_mixin.py:109} INFO - [2022-08-18 08:22:19,801] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:22:20,231] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:22:20,238] {logging_mixin.py:109} INFO - [2022-08-18 08:22:20,238] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:22:20,248] {logging_mixin.py:109} INFO - [2022-08-18 08:22:20,248] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:22:20,256] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.459 seconds
+[2022-08-18 08:22:50,308] {processor.py:163} INFO - Started process (PID=4413) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:22:50,309] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:22:50,309] {logging_mixin.py:109} INFO - [2022-08-18 08:22:50,309] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:22:50,799] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:22:50,806] {logging_mixin.py:109} INFO - [2022-08-18 08:22:50,806] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:22:50,817] {logging_mixin.py:109} INFO - [2022-08-18 08:22:50,817] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:22:50,826] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.520 seconds
+[2022-08-18 08:23:20,877] {processor.py:163} INFO - Started process (PID=4444) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:23:20,879] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:23:20,879] {logging_mixin.py:109} INFO - [2022-08-18 08:23:20,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:23:21,412] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:23:21,419] {logging_mixin.py:109} INFO - [2022-08-18 08:23:21,419] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:23:21,429] {logging_mixin.py:109} INFO - [2022-08-18 08:23:21,429] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:23:21,441] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.565 seconds
+[2022-08-18 08:23:51,469] {processor.py:163} INFO - Started process (PID=4484) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:23:51,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:23:51,470] {logging_mixin.py:109} INFO - [2022-08-18 08:23:51,470] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:23:51,962] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:23:51,969] {logging_mixin.py:109} INFO - [2022-08-18 08:23:51,968] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:23:51,979] {logging_mixin.py:109} INFO - [2022-08-18 08:23:51,979] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:23:51,989] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.522 seconds
+[2022-08-18 08:24:22,043] {processor.py:163} INFO - Started process (PID=4525) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:22,044] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:24:22,044] {logging_mixin.py:109} INFO - [2022-08-18 08:24:22,044] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:22,503] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:22,509] {logging_mixin.py:109} INFO - [2022-08-18 08:24:22,509] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:24:22,520] {logging_mixin.py:109} INFO - [2022-08-18 08:24:22,520] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:24:22,529] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.488 seconds
+[2022-08-18 08:24:25,048] {processor.py:163} INFO - Started process (PID=4538) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:25,049] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:24:25,049] {logging_mixin.py:109} INFO - [2022-08-18 08:24:25,049] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:25,051] {logging_mixin.py:109} INFO - [2022-08-18 08:24:25,050] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 57
+    catchup=True,
+          ^
+SyntaxError: invalid syntax
+[2022-08-18 08:24:25,061] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:25,061] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:25,071] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.025 seconds
+[2022-08-18 08:24:55,128] {processor.py:163} INFO - Started process (PID=4557) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:55,129] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:24:55,129] {logging_mixin.py:109} INFO - [2022-08-18 08:24:55,129] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:55,131] {logging_mixin.py:109} INFO - [2022-08-18 08:24:55,130] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 57
+    catchup=True,
+          ^
+SyntaxError: invalid syntax
+[2022-08-18 08:24:55,141] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:24:55,150] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.023 seconds
+[2022-08-18 08:25:17,187] {processor.py:163} INFO - Started process (PID=4576) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:25:17,188] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:25:17,188] {logging_mixin.py:109} INFO - [2022-08-18 08:25:17,188] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:25:17,632] {logging_mixin.py:109} INFO - [2022-08-18 08:25:17,632] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:25:17,642] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:25:17,650] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.464 seconds
+[2022-08-18 08:25:47,704] {processor.py:163} INFO - Started process (PID=4616) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:25:47,705] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:25:47,705] {logging_mixin.py:109} INFO - [2022-08-18 08:25:47,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:25:48,138] {logging_mixin.py:109} INFO - [2022-08-18 08:25:48,137] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:25:48,147] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:25:48,158] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.455 seconds
+[2022-08-18 08:26:18,210] {processor.py:163} INFO - Started process (PID=4656) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:26:18,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:26:18,211] {logging_mixin.py:109} INFO - [2022-08-18 08:26:18,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:26:18,669] {logging_mixin.py:109} INFO - [2022-08-18 08:26:18,668] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:26:18,681] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:26:18,692] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.484 seconds
+[2022-08-18 08:26:48,749] {processor.py:163} INFO - Started process (PID=4687) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:26:48,750] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:26:48,750] {logging_mixin.py:109} INFO - [2022-08-18 08:26:48,750] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:26:49,207] {logging_mixin.py:109} INFO - [2022-08-18 08:26:49,207] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:26:49,217] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:26:49,227] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.480 seconds
+[2022-08-18 08:27:19,277] {processor.py:163} INFO - Started process (PID=4727) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:27:19,278] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:27:19,278] {logging_mixin.py:109} INFO - [2022-08-18 08:27:19,278] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:27:19,710] {logging_mixin.py:109} INFO - [2022-08-18 08:27:19,709] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:27:19,719] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:27:19,730] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.455 seconds
+[2022-08-18 08:27:49,780] {processor.py:163} INFO - Started process (PID=4758) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:27:49,782] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:27:49,782] {logging_mixin.py:109} INFO - [2022-08-18 08:27:49,782] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:27:50,284] {logging_mixin.py:109} INFO - [2022-08-18 08:27:50,283] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:27:50,297] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:27:50,308] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.530 seconds
+[2022-08-18 08:28:20,362] {processor.py:163} INFO - Started process (PID=4800) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:28:20,363] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:28:20,363] {logging_mixin.py:109} INFO - [2022-08-18 08:28:20,363] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:28:20,806] {logging_mixin.py:109} INFO - [2022-08-18 08:28:20,806] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:28:20,816] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:28:20,823] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.463 seconds
+[2022-08-18 08:28:50,893] {processor.py:163} INFO - Started process (PID=4840) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:28:50,894] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:28:50,894] {logging_mixin.py:109} INFO - [2022-08-18 08:28:50,894] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:28:51,328] {logging_mixin.py:109} INFO - [2022-08-18 08:28:51,328] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:28:51,338] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:28:51,345] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.454 seconds
+[2022-08-18 08:29:21,397] {processor.py:163} INFO - Started process (PID=4871) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:29:21,397] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:29:21,398] {logging_mixin.py:109} INFO - [2022-08-18 08:29:21,398] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:29:21,823] {logging_mixin.py:109} INFO - [2022-08-18 08:29:21,823] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:29:21,832] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:29:21,840] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.445 seconds
+[2022-08-18 08:29:51,889] {processor.py:163} INFO - Started process (PID=4911) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:29:51,890] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:29:51,891] {logging_mixin.py:109} INFO - [2022-08-18 08:29:51,891] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:29:52,312] {logging_mixin.py:109} INFO - [2022-08-18 08:29:52,312] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:29:52,322] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:29:52,330] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.442 seconds
+[2022-08-18 08:30:22,380] {processor.py:163} INFO - Started process (PID=4951) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:30:22,381] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:30:22,382] {logging_mixin.py:109} INFO - [2022-08-18 08:30:22,382] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:30:22,871] {logging_mixin.py:109} INFO - [2022-08-18 08:30:22,871] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:30:22,882] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:30:22,891] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.513 seconds
+[2022-08-18 08:30:52,943] {processor.py:163} INFO - Started process (PID=4982) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:30:52,944] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:30:52,945] {logging_mixin.py:109} INFO - [2022-08-18 08:30:52,944] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:30:53,405] {logging_mixin.py:109} INFO - [2022-08-18 08:30:53,405] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:30:53,416] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:30:53,425] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.484 seconds
+[2022-08-18 08:31:23,499] {processor.py:163} INFO - Started process (PID=5022) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:31:23,500] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:31:23,500] {logging_mixin.py:109} INFO - [2022-08-18 08:31:23,500] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:31:23,993] {logging_mixin.py:109} INFO - [2022-08-18 08:31:23,992] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:31:24,003] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:31:24,013] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.516 seconds
+[2022-08-18 08:31:54,069] {processor.py:163} INFO - Started process (PID=5053) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:31:54,070] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:31:54,070] {logging_mixin.py:109} INFO - [2022-08-18 08:31:54,070] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:31:54,614] {logging_mixin.py:109} INFO - [2022-08-18 08:31:54,613] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:31:54,625] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:31:54,634] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.567 seconds
+[2022-08-18 08:32:24,690] {processor.py:163} INFO - Started process (PID=5093) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:32:24,690] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:32:24,691] {logging_mixin.py:109} INFO - [2022-08-18 08:32:24,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:32:25,175] {logging_mixin.py:109} INFO - [2022-08-18 08:32:25,174] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:32:25,185] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:32:25,194] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.507 seconds
+[2022-08-18 08:32:55,224] {processor.py:163} INFO - Started process (PID=5134) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:32:55,225] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:32:55,226] {logging_mixin.py:109} INFO - [2022-08-18 08:32:55,226] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:32:55,721] {logging_mixin.py:109} INFO - [2022-08-18 08:32:55,721] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:32:55,731] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:32:55,739] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.516 seconds
+[2022-08-18 08:33:25,797] {processor.py:163} INFO - Started process (PID=5165) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:33:25,797] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:33:25,798] {logging_mixin.py:109} INFO - [2022-08-18 08:33:25,797] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:33:26,239] {logging_mixin.py:109} INFO - [2022-08-18 08:33:26,239] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:33:26,249] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:33:26,257] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.462 seconds
+[2022-08-18 08:33:56,311] {processor.py:163} INFO - Started process (PID=5206) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:33:56,312] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:33:56,313] {logging_mixin.py:109} INFO - [2022-08-18 08:33:56,312] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:33:56,785] {logging_mixin.py:109} INFO - [2022-08-18 08:33:56,784] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:33:56,794] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:33:56,801] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.492 seconds
+[2022-08-18 08:34:26,858] {processor.py:163} INFO - Started process (PID=5247) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:34:26,860] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:34:26,860] {logging_mixin.py:109} INFO - [2022-08-18 08:34:26,860] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:34:27,350] {logging_mixin.py:109} INFO - [2022-08-18 08:34:27,349] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:34:27,361] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:34:27,371] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.515 seconds
+[2022-08-18 08:34:57,450] {processor.py:163} INFO - Started process (PID=5278) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:34:57,450] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:34:57,451] {logging_mixin.py:109} INFO - [2022-08-18 08:34:57,451] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:34:57,881] {logging_mixin.py:109} INFO - [2022-08-18 08:34:57,880] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:34:57,892] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:34:57,903] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.454 seconds
+[2022-08-18 08:35:27,959] {processor.py:163} INFO - Started process (PID=5318) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:35:27,960] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:35:27,960] {logging_mixin.py:109} INFO - [2022-08-18 08:35:27,960] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:35:28,399] {logging_mixin.py:109} INFO - [2022-08-18 08:35:28,399] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:35:28,408] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:35:28,418] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.461 seconds
+[2022-08-18 08:35:58,469] {processor.py:163} INFO - Started process (PID=5349) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:35:58,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:35:58,470] {logging_mixin.py:109} INFO - [2022-08-18 08:35:58,470] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:35:58,913] {logging_mixin.py:109} INFO - [2022-08-18 08:35:58,911] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:35:58,923] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:35:58,931] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.464 seconds
+[2022-08-18 08:36:28,984] {processor.py:163} INFO - Started process (PID=5389) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:36:28,985] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:36:28,985] {logging_mixin.py:109} INFO - [2022-08-18 08:36:28,985] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:36:29,446] {logging_mixin.py:109} INFO - [2022-08-18 08:36:29,445] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:36:29,455] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:36:29,462] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.480 seconds
+[2022-08-18 08:36:59,523] {processor.py:163} INFO - Started process (PID=5429) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:36:59,523] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:36:59,524] {logging_mixin.py:109} INFO - [2022-08-18 08:36:59,524] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:36:59,966] {logging_mixin.py:109} INFO - [2022-08-18 08:36:59,966] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:36:59,976] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:36:59,984] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.463 seconds
+[2022-08-18 08:37:30,039] {processor.py:163} INFO - Started process (PID=5460) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:37:30,040] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:37:30,041] {logging_mixin.py:109} INFO - [2022-08-18 08:37:30,041] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:37:30,484] {logging_mixin.py:109} INFO - [2022-08-18 08:37:30,484] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:37:30,495] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:37:30,506] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.469 seconds
+[2022-08-18 08:38:00,560] {processor.py:163} INFO - Started process (PID=5500) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:38:00,560] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:38:00,560] {logging_mixin.py:109} INFO - [2022-08-18 08:38:00,560] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:38:01,010] {logging_mixin.py:109} INFO - [2022-08-18 08:38:01,009] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:38:01,023] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:38:01,033] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.475 seconds
+[2022-08-18 08:38:31,084] {processor.py:163} INFO - Started process (PID=5531) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:38:31,085] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:38:31,085] {logging_mixin.py:109} INFO - [2022-08-18 08:38:31,085] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:38:31,542] {logging_mixin.py:109} INFO - [2022-08-18 08:38:31,542] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:38:31,552] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:38:31,562] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.480 seconds
+[2022-08-18 08:39:01,614] {processor.py:163} INFO - Started process (PID=5571) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:39:01,616] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:39:01,616] {logging_mixin.py:109} INFO - [2022-08-18 08:39:01,616] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:39:02,074] {logging_mixin.py:109} INFO - [2022-08-18 08:39:02,073] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:39:02,085] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:39:02,096] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.483 seconds
+[2022-08-18 08:39:32,147] {processor.py:163} INFO - Started process (PID=5612) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:39:32,148] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:39:32,148] {logging_mixin.py:109} INFO - [2022-08-18 08:39:32,148] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:39:32,602] {logging_mixin.py:109} INFO - [2022-08-18 08:39:32,602] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:39:32,613] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:39:32,621] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.476 seconds
+[2022-08-18 08:40:02,675] {processor.py:163} INFO - Started process (PID=5643) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:40:02,675] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:40:02,676] {logging_mixin.py:109} INFO - [2022-08-18 08:40:02,676] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:40:03,120] {logging_mixin.py:109} INFO - [2022-08-18 08:40:03,119] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:40:03,131] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:40:03,139] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.466 seconds
+[2022-08-18 08:40:33,191] {processor.py:163} INFO - Started process (PID=5683) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:40:33,192] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:40:33,192] {logging_mixin.py:109} INFO - [2022-08-18 08:40:33,192] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:40:33,669] {logging_mixin.py:109} INFO - [2022-08-18 08:40:33,669] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:40:33,679] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:40:33,688] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.498 seconds
+[2022-08-18 08:41:03,743] {processor.py:163} INFO - Started process (PID=5714) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:41:03,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:41:03,745] {logging_mixin.py:109} INFO - [2022-08-18 08:41:03,745] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:41:04,328] {logging_mixin.py:109} INFO - [2022-08-18 08:41:04,327] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:41:04,339] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:41:04,350] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.609 seconds
+[2022-08-18 08:41:34,406] {processor.py:163} INFO - Started process (PID=5754) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:41:34,407] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:41:34,408] {logging_mixin.py:109} INFO - [2022-08-18 08:41:34,408] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:41:34,896] {logging_mixin.py:109} INFO - [2022-08-18 08:41:34,895] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:41:34,907] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:41:34,917] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.513 seconds
+[2022-08-18 08:42:04,988] {processor.py:163} INFO - Started process (PID=5794) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:42:04,989] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:42:04,989] {logging_mixin.py:109} INFO - [2022-08-18 08:42:04,989] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:42:05,537] {logging_mixin.py:109} INFO - [2022-08-18 08:42:05,536] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:42:05,551] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:42:05,563] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.577 seconds
+[2022-08-18 08:42:35,609] {processor.py:163} INFO - Started process (PID=5825) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:42:35,610] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:42:35,610] {logging_mixin.py:109} INFO - [2022-08-18 08:42:35,610] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:42:36,032] {logging_mixin.py:109} INFO - [2022-08-18 08:42:36,031] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:42:36,041] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:42:36,049] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.441 seconds
+[2022-08-18 08:43:06,099] {processor.py:163} INFO - Started process (PID=5865) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:43:06,100] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:43:06,101] {logging_mixin.py:109} INFO - [2022-08-18 08:43:06,101] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:43:06,539] {logging_mixin.py:109} INFO - [2022-08-18 08:43:06,538] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:43:06,548] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:43:06,556] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.459 seconds
+[2022-08-18 08:43:36,607] {processor.py:163} INFO - Started process (PID=5906) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:43:36,607] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:43:36,608] {logging_mixin.py:109} INFO - [2022-08-18 08:43:36,608] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:43:37,137] {logging_mixin.py:109} INFO - [2022-08-18 08:43:37,137] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:43:37,149] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:43:37,159] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.555 seconds
+[2022-08-18 08:44:07,242] {processor.py:163} INFO - Started process (PID=5937) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:44:07,243] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:44:07,243] {logging_mixin.py:109} INFO - [2022-08-18 08:44:07,243] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:44:07,682] {logging_mixin.py:109} INFO - [2022-08-18 08:44:07,681] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:44:07,692] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:44:07,698] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.458 seconds
+[2022-08-18 08:44:37,755] {processor.py:163} INFO - Started process (PID=5977) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:44:37,755] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:44:37,755] {logging_mixin.py:109} INFO - [2022-08-18 08:44:37,755] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:44:38,236] {logging_mixin.py:109} INFO - [2022-08-18 08:44:38,235] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:44:38,250] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:44:38,259] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.506 seconds
+[2022-08-18 08:45:08,318] {processor.py:163} INFO - Started process (PID=6008) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:45:08,319] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:45:08,319] {logging_mixin.py:109} INFO - [2022-08-18 08:45:08,319] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:45:08,798] {logging_mixin.py:109} INFO - [2022-08-18 08:45:08,797] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:45:08,807] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:45:08,818] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.502 seconds
+[2022-08-18 08:45:38,900] {processor.py:163} INFO - Started process (PID=6048) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:45:38,900] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:45:38,901] {logging_mixin.py:109} INFO - [2022-08-18 08:45:38,901] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:45:39,368] {logging_mixin.py:109} INFO - [2022-08-18 08:45:39,367] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:45:39,377] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:45:39,385] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.487 seconds
+[2022-08-18 08:46:09,438] {processor.py:163} INFO - Started process (PID=6088) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:46:09,439] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:46:09,439] {logging_mixin.py:109} INFO - [2022-08-18 08:46:09,439] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:46:09,955] {logging_mixin.py:109} INFO - [2022-08-18 08:46:09,955] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:46:09,966] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:46:09,976] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.539 seconds
+[2022-08-18 08:46:40,040] {processor.py:163} INFO - Started process (PID=6119) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:46:40,041] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:46:40,041] {logging_mixin.py:109} INFO - [2022-08-18 08:46:40,041] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:46:40,460] {logging_mixin.py:109} INFO - [2022-08-18 08:46:40,459] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:46:40,468] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:46:40,476] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.438 seconds
+[2022-08-18 08:47:10,530] {processor.py:163} INFO - Started process (PID=6160) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:47:10,531] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:47:10,531] {logging_mixin.py:109} INFO - [2022-08-18 08:47:10,531] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:47:10,977] {logging_mixin.py:109} INFO - [2022-08-18 08:47:10,977] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:47:10,986] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:47:10,998] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.470 seconds
+[2022-08-18 08:47:41,048] {processor.py:163} INFO - Started process (PID=6191) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:47:41,049] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:47:41,049] {logging_mixin.py:109} INFO - [2022-08-18 08:47:41,049] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:47:41,489] {logging_mixin.py:109} INFO - [2022-08-18 08:47:41,488] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:47:41,498] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:47:41,506] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.460 seconds
+[2022-08-18 08:48:11,557] {processor.py:163} INFO - Started process (PID=6232) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:48:11,558] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:48:11,558] {logging_mixin.py:109} INFO - [2022-08-18 08:48:11,558] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:48:11,972] {logging_mixin.py:109} INFO - [2022-08-18 08:48:11,972] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:48:11,981] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:48:11,989] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.434 seconds
+[2022-08-18 08:48:42,042] {processor.py:163} INFO - Started process (PID=6272) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:48:42,043] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:48:42,043] {logging_mixin.py:109} INFO - [2022-08-18 08:48:42,043] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:48:42,497] {logging_mixin.py:109} INFO - [2022-08-18 08:48:42,497] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:48:42,507] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:48:42,515] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.475 seconds
+[2022-08-18 08:49:12,570] {processor.py:163} INFO - Started process (PID=6303) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:12,571] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:49:12,572] {logging_mixin.py:109} INFO - [2022-08-18 08:49:12,571] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:13,100] {logging_mixin.py:109} INFO - [2022-08-18 08:49:13,100] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:49:13,111] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:13,119] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.552 seconds
+[2022-08-18 08:49:43,188] {processor.py:163} INFO - Started process (PID=6343) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:43,188] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:49:43,188] {logging_mixin.py:109} INFO - [2022-08-18 08:49:43,188] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:43,647] {logging_mixin.py:109} INFO - [2022-08-18 08:49:43,647] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:49:43,658] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:43,668] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.482 seconds
+[2022-08-18 08:49:52,210] {processor.py:163} INFO - Started process (PID=6365) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:52,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:49:52,211] {logging_mixin.py:109} INFO - [2022-08-18 08:49:52,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:52,708] {logging_mixin.py:109} INFO - [2022-08-18 08:49:52,707] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 56, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:49:52,719] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:49:52,727] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.519 seconds
+[2022-08-18 08:50:10,742] {processor.py:163} INFO - Started process (PID=6387) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:50:10,743] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:50:10,743] {logging_mixin.py:109} INFO - [2022-08-18 08:50:10,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:50:11,205] {logging_mixin.py:109} INFO - [2022-08-18 08:50:11,204] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 55, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:50:11,215] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:50:11,224] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.483 seconds
+[2022-08-18 08:50:41,276] {processor.py:163} INFO - Started process (PID=6427) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:50:41,277] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:50:41,277] {logging_mixin.py:109} INFO - [2022-08-18 08:50:41,277] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:50:41,711] {logging_mixin.py:109} INFO - [2022-08-18 08:50:41,710] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 55, in <module>
+    start_date=datetime(2019-1-1),
+TypeError: function missing required argument 'month' (pos 2)
+[2022-08-18 08:50:41,720] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:50:41,728] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.454 seconds
+[2022-08-18 08:51:00,766] {processor.py:163} INFO - Started process (PID=6458) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:51:00,767] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:51:00,767] {logging_mixin.py:109} INFO - [2022-08-18 08:51:00,767] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:51:01,294] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:51:01,552] {logging_mixin.py:109} INFO - [2022-08-18 08:51:01,552] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:51:01,569] {logging_mixin.py:109} INFO - [2022-08-18 08:51:01,569] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:51:01,589] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.825 seconds
+[2022-08-18 08:51:31,644] {processor.py:163} INFO - Started process (PID=6489) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:51:31,645] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:51:31,645] {logging_mixin.py:109} INFO - [2022-08-18 08:51:31,645] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:51:32,071] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:51:32,077] {logging_mixin.py:109} INFO - [2022-08-18 08:51:32,077] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:51:32,086] {logging_mixin.py:109} INFO - [2022-08-18 08:51:32,086] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:51:32,095] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.453 seconds
+[2022-08-18 08:52:02,158] {processor.py:163} INFO - Started process (PID=6529) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:52:02,159] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:52:02,159] {logging_mixin.py:109} INFO - [2022-08-18 08:52:02,159] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:52:02,668] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:52:02,675] {logging_mixin.py:109} INFO - [2022-08-18 08:52:02,675] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:52:02,686] {logging_mixin.py:109} INFO - [2022-08-18 08:52:02,686] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:52:02,694] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.537 seconds
+[2022-08-18 08:52:32,770] {processor.py:163} INFO - Started process (PID=6560) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:52:32,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:52:32,772] {logging_mixin.py:109} INFO - [2022-08-18 08:52:32,772] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:52:33,265] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:52:33,271] {logging_mixin.py:109} INFO - [2022-08-18 08:52:33,271] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:52:33,282] {logging_mixin.py:109} INFO - [2022-08-18 08:52:33,282] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:52:33,291] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.523 seconds
+[2022-08-18 08:53:03,340] {processor.py:163} INFO - Started process (PID=6600) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:03,340] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:53:03,341] {logging_mixin.py:109} INFO - [2022-08-18 08:53:03,341] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:03,809] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:03,815] {logging_mixin.py:109} INFO - [2022-08-18 08:53:03,815] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:53:03,827] {logging_mixin.py:109} INFO - [2022-08-18 08:53:03,826] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:53:03,836] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.498 seconds
+[2022-08-18 08:53:33,888] {processor.py:163} INFO - Started process (PID=6640) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:33,889] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:53:33,890] {logging_mixin.py:109} INFO - [2022-08-18 08:53:33,890] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:34,398] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:34,405] {logging_mixin.py:109} INFO - [2022-08-18 08:53:34,404] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:53:34,415] {logging_mixin.py:109} INFO - [2022-08-18 08:53:34,415] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:53:34,423] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.536 seconds
+[2022-08-18 08:53:37,405] {processor.py:163} INFO - Started process (PID=6653) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:37,406] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:53:37,406] {logging_mixin.py:109} INFO - [2022-08-18 08:53:37,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:37,866] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:53:37,872] {logging_mixin.py:109} INFO - [2022-08-18 08:53:37,872] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:53:37,883] {logging_mixin.py:109} INFO - [2022-08-18 08:53:37,883] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:53:37,894] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.491 seconds
+[2022-08-18 08:54:07,945] {processor.py:163} INFO - Started process (PID=6693) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:07,946] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:54:07,946] {logging_mixin.py:109} INFO - [2022-08-18 08:54:07,946] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:08,407] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:08,413] {logging_mixin.py:109} INFO - [2022-08-18 08:54:08,413] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:54:08,423] {logging_mixin.py:109} INFO - [2022-08-18 08:54:08,423] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:54:08,432] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.489 seconds
+[2022-08-18 08:54:20,459] {processor.py:163} INFO - Started process (PID=6715) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:20,459] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:54:20,459] {logging_mixin.py:109} INFO - [2022-08-18 08:54:20,459] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:20,960] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:20,967] {logging_mixin.py:109} INFO - [2022-08-18 08:54:20,966] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:54:20,977] {logging_mixin.py:109} INFO - [2022-08-18 08:54:20,977] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:54:20,988] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.531 seconds
+[2022-08-18 08:54:51,055] {processor.py:163} INFO - Started process (PID=6746) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:51,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:54:51,056] {logging_mixin.py:109} INFO - [2022-08-18 08:54:51,056] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:51,486] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:54:51,492] {logging_mixin.py:109} INFO - [2022-08-18 08:54:51,492] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:54:51,503] {logging_mixin.py:109} INFO - [2022-08-18 08:54:51,503] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:54:51,511] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.457 seconds
+[2022-08-18 08:55:21,561] {processor.py:163} INFO - Started process (PID=6786) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:55:21,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:55:21,562] {logging_mixin.py:109} INFO - [2022-08-18 08:55:21,562] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:55:21,994] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:55:22,000] {logging_mixin.py:109} INFO - [2022-08-18 08:55:22,000] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:55:22,009] {logging_mixin.py:109} INFO - [2022-08-18 08:55:22,009] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:55:22,017] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.458 seconds
+[2022-08-18 08:55:52,069] {processor.py:163} INFO - Started process (PID=6818) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:55:52,070] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:55:52,070] {logging_mixin.py:109} INFO - [2022-08-18 08:55:52,070] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:55:52,555] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:55:52,564] {logging_mixin.py:109} INFO - [2022-08-18 08:55:52,563] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 08:55:52,578] {logging_mixin.py:109} INFO - [2022-08-18 08:55:52,578] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 08:55:52,588] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.520 seconds
+[2022-08-18 08:56:19,119] {processor.py:163} INFO - Started process (PID=6859) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:56:19,120] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:56:19,120] {logging_mixin.py:109} INFO - [2022-08-18 08:56:19,120] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:56:19,556] {logging_mixin.py:109} INFO - [2022-08-18 08:56:19,555] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 08:56:19,565] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:56:19,565] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:56:19,573] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.456 seconds
+[2022-08-18 08:56:49,631] {processor.py:163} INFO - Started process (PID=6890) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:56:49,632] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:56:49,633] {logging_mixin.py:109} INFO - [2022-08-18 08:56:49,633] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:56:50,169] {logging_mixin.py:109} INFO - [2022-08-18 08:56:50,168] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 08:56:50,180] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:56:50,190] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.561 seconds
+[2022-08-18 08:57:20,273] {processor.py:163} INFO - Started process (PID=6930) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:57:20,274] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:57:20,274] {logging_mixin.py:109} INFO - [2022-08-18 08:57:20,274] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:57:20,698] {logging_mixin.py:109} INFO - [2022-08-18 08:57:20,697] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 08:57:20,707] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:57:20,715] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.443 seconds
+[2022-08-18 08:57:50,766] {processor.py:163} INFO - Started process (PID=6970) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:57:50,767] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:57:50,767] {logging_mixin.py:109} INFO - [2022-08-18 08:57:50,767] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:57:51,210] {logging_mixin.py:109} INFO - [2022-08-18 08:57:51,210] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 08:57:51,219] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:57:51,226] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.462 seconds
+[2022-08-18 08:58:21,278] {processor.py:163} INFO - Started process (PID=7001) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:58:21,279] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:58:21,279] {logging_mixin.py:109} INFO - [2022-08-18 08:58:21,279] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:58:21,695] {logging_mixin.py:109} INFO - [2022-08-18 08:58:21,695] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 08:58:21,705] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:58:21,714] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.437 seconds
+[2022-08-18 08:58:51,767] {processor.py:163} INFO - Started process (PID=7041) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:58:51,768] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:58:51,768] {logging_mixin.py:109} INFO - [2022-08-18 08:58:51,768] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:58:52,187] {logging_mixin.py:109} INFO - [2022-08-18 08:58:52,186] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 08:58:52,195] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:58:52,202] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.438 seconds
+[2022-08-18 08:59:22,254] {processor.py:163} INFO - Started process (PID=7072) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:59:22,256] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:59:22,257] {logging_mixin.py:109} INFO - [2022-08-18 08:59:22,257] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:59:22,795] {logging_mixin.py:109} INFO - [2022-08-18 08:59:22,794] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 08:59:22,805] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:59:22,814] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.562 seconds
+[2022-08-18 08:59:52,898] {processor.py:163} INFO - Started process (PID=7112) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:59:52,899] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 08:59:52,900] {logging_mixin.py:109} INFO - [2022-08-18 08:59:52,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:59:53,338] {logging_mixin.py:109} INFO - [2022-08-18 08:59:53,337] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 08:59:53,347] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 08:59:53,355] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.458 seconds
+[2022-08-18 09:00:23,380] {processor.py:163} INFO - Started process (PID=7152) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:00:23,380] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:00:23,381] {logging_mixin.py:109} INFO - [2022-08-18 09:00:23,381] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:00:23,815] {logging_mixin.py:109} INFO - [2022-08-18 09:00:23,815] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 09:00:23,825] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:00:23,832] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.454 seconds
+[2022-08-18 09:00:53,885] {processor.py:163} INFO - Started process (PID=7183) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:00:53,886] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:00:53,887] {logging_mixin.py:109} INFO - [2022-08-18 09:00:53,887] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:00:54,329] {logging_mixin.py:109} INFO - [2022-08-18 09:00:54,328] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 09:00:54,340] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:00:54,349] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.465 seconds
+[2022-08-18 09:01:24,403] {processor.py:163} INFO - Started process (PID=7224) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:01:24,404] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:01:24,404] {logging_mixin.py:109} INFO - [2022-08-18 09:01:24,404] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:01:24,848] {logging_mixin.py:109} INFO - [2022-08-18 09:01:24,848] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 09:01:24,859] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:01:24,868] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.466 seconds
+[2022-08-18 09:01:54,921] {processor.py:163} INFO - Started process (PID=7264) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:01:54,921] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:01:54,922] {logging_mixin.py:109} INFO - [2022-08-18 09:01:54,922] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:01:55,545] {logging_mixin.py:109} INFO - [2022-08-18 09:01:55,545] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py", line 93, in <module>
+    "sourceUris": [f"gs://{BUCKET}/raw/{dataset_file}"],
+NameError: name 'dataset_file' is not defined
+[2022-08-18 09:01:55,556] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:01:55,600] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.681 seconds
+[2022-08-18 09:02:15,641] {processor.py:163} INFO - Started process (PID=7286) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:02:15,643] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:02:15,643] {logging_mixin.py:109} INFO - [2022-08-18 09:02:15,643] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:02:16,147] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:02:16,294] {logging_mixin.py:109} INFO - [2022-08-18 09:02:16,294] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:02:16,309] {logging_mixin.py:109} INFO - [2022-08-18 09:02:16,308] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 09:02:16,324] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.685 seconds
+[2022-08-18 09:02:46,398] {processor.py:163} INFO - Started process (PID=7326) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:02:46,399] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:02:46,400] {logging_mixin.py:109} INFO - [2022-08-18 09:02:46,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:02:46,856] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:02:46,863] {logging_mixin.py:109} INFO - [2022-08-18 09:02:46,862] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:02:46,872] {logging_mixin.py:109} INFO - [2022-08-18 09:02:46,872] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 09:02:46,881] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.485 seconds
+[2022-08-18 09:03:16,932] {processor.py:163} INFO - Started process (PID=7366) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:16,933] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:03:16,933] {logging_mixin.py:109} INFO - [2022-08-18 09:03:16,933] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:17,408] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:17,415] {logging_mixin.py:109} INFO - [2022-08-18 09:03:17,415] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:03:17,425] {logging_mixin.py:109} INFO - [2022-08-18 09:03:17,424] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2022-08-18T00:00:00+00:00
+[2022-08-18 09:03:17,433] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.503 seconds
+[2022-08-18 09:03:47,487] {processor.py:163} INFO - Started process (PID=7398) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:47,488] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:03:47,488] {logging_mixin.py:109} INFO - [2022-08-18 09:03:47,488] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:47,932] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:48,053] {logging_mixin.py:109} INFO - [2022-08-18 09:03:48,053] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:03:48,058] {logging_mixin.py:109} INFO - [2022-08-18 09:03:48,057] {dag.py:2415} INFO - Creating ORM DAG for data_ingestion_gcs_dag
+[2022-08-18 09:03:48,063] {logging_mixin.py:109} INFO - [2022-08-18 09:03:48,063] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:03:48,075] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.590 seconds
+[2022-08-18 09:03:58,028] {processor.py:163} INFO - Started process (PID=7420) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:58,029] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:03:58,029] {logging_mixin.py:109} INFO - [2022-08-18 09:03:58,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:58,494] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:03:58,497] {logging_mixin.py:109} INFO - [2022-08-18 09:03:58,496] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:03:58,508] {logging_mixin.py:109} INFO - [2022-08-18 09:03:58,508] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:03:58,519] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.492 seconds
+[2022-08-18 09:04:28,573] {processor.py:163} INFO - Started process (PID=7461) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:04:28,574] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:04:28,574] {logging_mixin.py:109} INFO - [2022-08-18 09:04:28,574] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:04:29,038] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:04:29,044] {logging_mixin.py:109} INFO - [2022-08-18 09:04:29,044] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:04:29,053] {logging_mixin.py:109} INFO - [2022-08-18 09:04:29,053] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:04:29,061] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.490 seconds
+[2022-08-18 09:04:59,115] {processor.py:163} INFO - Started process (PID=7492) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:04:59,116] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:04:59,116] {logging_mixin.py:109} INFO - [2022-08-18 09:04:59,116] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:04:59,549] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:04:59,554] {logging_mixin.py:109} INFO - [2022-08-18 09:04:59,554] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:04:59,564] {logging_mixin.py:109} INFO - [2022-08-18 09:04:59,564] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:04:59,573] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.460 seconds
+[2022-08-18 09:05:29,643] {processor.py:163} INFO - Started process (PID=7532) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:29,644] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:05:29,644] {logging_mixin.py:109} INFO - [2022-08-18 09:05:29,644] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:30,075] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:30,081] {logging_mixin.py:109} INFO - [2022-08-18 09:05:30,081] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:05:30,092] {logging_mixin.py:109} INFO - [2022-08-18 09:05:30,092] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:05:30,100] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.459 seconds
+[2022-08-18 09:05:38,665] {processor.py:163} INFO - Started process (PID=7554) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:38,666] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:05:38,666] {logging_mixin.py:109} INFO - [2022-08-18 09:05:38,666] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:39,138] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:39,138] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:41,486] {logging_mixin.py:109} INFO - [2022-08-18 09:05:41,486] {manager.py:496} INFO - Created Permission View: can edit on DAG:yellow_taxi_data_ingest
+[2022-08-18 09:05:41,495] {logging_mixin.py:109} INFO - [2022-08-18 09:05:41,494] {manager.py:496} INFO - Created Permission View: can read on DAG:yellow_taxi_data_ingest
+[2022-08-18 09:05:41,495] {logging_mixin.py:109} INFO - [2022-08-18 09:05:41,495] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:05:41,501] {logging_mixin.py:109} INFO - [2022-08-18 09:05:41,501] {dag.py:2415} INFO - Creating ORM DAG for yellow_taxi_data_ingest
+[2022-08-18 09:05:41,507] {logging_mixin.py:109} INFO - [2022-08-18 09:05:41,507] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:05:41,516] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 2.853 seconds
+[2022-08-18 09:05:54,155] {processor.py:163} INFO - Started process (PID=7576) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:54,156] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:05:54,156] {logging_mixin.py:109} INFO - [2022-08-18 09:05:54,156] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:54,632] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:05:54,635] {logging_mixin.py:109} INFO - [2022-08-18 09:05:54,635] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:05:54,645] {logging_mixin.py:109} INFO - [2022-08-18 09:05:54,645] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:05:54,654] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.501 seconds
+[2022-08-18 09:06:24,706] {processor.py:163} INFO - Started process (PID=7616) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:06:24,707] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:06:24,707] {logging_mixin.py:109} INFO - [2022-08-18 09:06:24,707] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:06:25,218] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:06:25,225] {logging_mixin.py:109} INFO - [2022-08-18 09:06:25,225] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:06:25,237] {logging_mixin.py:109} INFO - [2022-08-18 09:06:25,237] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:06:25,248] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.544 seconds
+[2022-08-18 09:06:55,301] {processor.py:163} INFO - Started process (PID=7647) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:06:55,302] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:06:55,303] {logging_mixin.py:109} INFO - [2022-08-18 09:06:55,303] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:06:55,763] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:06:55,770] {logging_mixin.py:109} INFO - [2022-08-18 09:06:55,770] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:06:55,781] {logging_mixin.py:109} INFO - [2022-08-18 09:06:55,781] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:06:55,789] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.490 seconds
+[2022-08-18 09:07:25,853] {processor.py:163} INFO - Started process (PID=7687) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:07:25,854] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:07:25,854] {logging_mixin.py:109} INFO - [2022-08-18 09:07:25,854] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:07:26,312] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:07:26,319] {logging_mixin.py:109} INFO - [2022-08-18 09:07:26,319] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:07:26,331] {logging_mixin.py:109} INFO - [2022-08-18 09:07:26,330] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:07:26,341] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.489 seconds
+[2022-08-18 09:07:56,395] {processor.py:163} INFO - Started process (PID=7718) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:07:56,396] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:07:56,396] {logging_mixin.py:109} INFO - [2022-08-18 09:07:56,396] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:07:56,941] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:07:56,948] {logging_mixin.py:109} INFO - [2022-08-18 09:07:56,947] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:07:56,958] {logging_mixin.py:109} INFO - [2022-08-18 09:07:56,958] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:07:56,970] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.577 seconds
+[2022-08-18 09:08:26,997] {processor.py:163} INFO - Started process (PID=7758) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:08:26,998] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:08:26,998] {logging_mixin.py:109} INFO - [2022-08-18 09:08:26,998] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:08:27,484] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:08:27,491] {logging_mixin.py:109} INFO - [2022-08-18 09:08:27,490] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:08:27,501] {logging_mixin.py:109} INFO - [2022-08-18 09:08:27,501] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:08:27,512] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.517 seconds
+[2022-08-18 09:08:57,565] {processor.py:163} INFO - Started process (PID=7798) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:08:57,566] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:08:57,566] {logging_mixin.py:109} INFO - [2022-08-18 09:08:57,566] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:08:58,031] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:08:58,037] {logging_mixin.py:109} INFO - [2022-08-18 09:08:58,037] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:08:58,047] {logging_mixin.py:109} INFO - [2022-08-18 09:08:58,047] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:08:58,056] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.493 seconds
+[2022-08-18 09:09:28,126] {processor.py:163} INFO - Started process (PID=7829) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:09:28,127] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:09:28,127] {logging_mixin.py:109} INFO - [2022-08-18 09:09:28,127] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:09:28,579] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:09:28,585] {logging_mixin.py:109} INFO - [2022-08-18 09:09:28,585] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:09:28,594] {logging_mixin.py:109} INFO - [2022-08-18 09:09:28,594] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:09:28,602] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.477 seconds
+[2022-08-18 09:09:58,680] {processor.py:163} INFO - Started process (PID=7869) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:09:58,681] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:09:58,681] {logging_mixin.py:109} INFO - [2022-08-18 09:09:58,681] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:09:59,119] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:09:59,126] {logging_mixin.py:109} INFO - [2022-08-18 09:09:59,126] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:09:59,137] {logging_mixin.py:109} INFO - [2022-08-18 09:09:59,137] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:09:59,144] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.467 seconds
+[2022-08-18 09:10:29,196] {processor.py:163} INFO - Started process (PID=7909) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:10:29,197] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:10:29,197] {logging_mixin.py:109} INFO - [2022-08-18 09:10:29,197] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:10:29,678] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:10:29,685] {logging_mixin.py:109} INFO - [2022-08-18 09:10:29,685] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:10:29,696] {logging_mixin.py:109} INFO - [2022-08-18 09:10:29,696] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:10:29,705] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.511 seconds
+[2022-08-18 09:10:59,755] {processor.py:163} INFO - Started process (PID=7940) to work on /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:10:59,757] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py for tasks to queue
+[2022-08-18 09:10:59,757] {logging_mixin.py:109} INFO - [2022-08-18 09:10:59,757] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:11:00,202] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py
+[2022-08-18 09:11:00,208] {logging_mixin.py:109} INFO - [2022-08-18 09:11:00,208] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 09:11:00,218] {logging_mixin.py:109} INFO - [2022-08-18 09:11:00,218] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2019-01-01 01:00:00+00:00
+[2022-08-18 09:11:00,227] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingestion_gcs_dag.py took 0.474 seconds
