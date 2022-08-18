@@ -15,8 +15,8 @@ PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
 # Below line used if wanting to pass in custom date variable, using other way for course homework
-# dataset_file = "yellow_tripdata_{{ dag_run.conf['date'] }}.parquet"
-# dataset_file = "yellow_tripdata_{{ execution_date.strftime('%Y-%m') }}.parquet"
+# dataset_file = "green_tripdata_{{ dag_run.conf['date'] }}.parquet"
+# dataset_file = "green_tripdata_{{ execution_date.strftime('%Y-%m') }}.parquet"
 # dataset_url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
 
 AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
@@ -51,25 +51,25 @@ default_args = {
 
 URL_PREFIX = 'https://d37ci6vzurychx.cloudfront.net/trip-data'
 
-YELLOW_TAXI_URL_TEMPLATE = URL_PREFIX + '/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
-YELLOW_TAXI_FILE_TEMPLATE = AIRFLOW_HOME + '/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
-YELLOW_TAXI_GCS_PATH_TEMPLATE = "raw/yellow_tripdata/{{ execution_date.strftime(\'%Y-%m\') }}/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet"
-YELLOW_TAXI_TABLE_NAME_TEMPLATE = "yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}"
+GREEN_TAXI_URL_TEMPLATE = URL_PREFIX + '/green_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
+GREEN_TAXI_FILE_TEMPLATE = AIRFLOW_HOME + '/green_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
+GREEN_TAXI_GCS_PATH_TEMPLATE = "raw/green_tripdata/{{ execution_date.strftime(\'%Y-%m\') }}/green_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet"
+GREEN_TAXI_TABLE_NAME_TEMPLATE = "green_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}"
 
 # DAG declaration using a context manager
 with DAG(
-  dag_id="yellow_taxi_data_ingest",
+  dag_id="green_taxi_data_ingest",
   schedule_interval="0 1 1 1 *",
   default_args=default_args,
   start_date=datetime(2019, 1, 1),
   catchup=True,
   max_active_runs=3,
   tags=['dtc-de'],
-) as yellow_taxi_data_ingest:
+) as green_taxi_data_ingest:
 
   download_data_set_task = BashOperator(
     task_id="download_dataset_task",
-    bash_command=f"curl -sSLf {YELLOW_TAXI_URL_TEMPLATE} > {YELLOW_TAXI_FILE_TEMPLATE}"
+    bash_command=f"curl -sSLf {GREEN_TAXI_URL_TEMPLATE} > {GREEN_TAXI_FILE_TEMPLATE}"
   )
 
   local_to_gcs_task = PythonOperator(
@@ -77,8 +77,8 @@ with DAG(
     python_callable=upload_to_gcs,
     op_kwargs={
       "bucket": BUCKET,
-      "object_name": YELLOW_TAXI_GCS_PATH_TEMPLATE,
-      "local_file": YELLOW_TAXI_FILE_TEMPLATE,
+      "object_name": GREEN_TAXI_GCS_PATH_TEMPLATE,
+      "local_file": GREEN_TAXI_FILE_TEMPLATE,
     },
   )
 
@@ -88,11 +88,11 @@ with DAG(
       "tableReference": {
         "projectId": PROJECT_ID,
         "datasetId": BIGQUERY_DATASET,
-        "tableId": YELLOW_TAXI_TABLE_NAME_TEMPLATE,
+        "tableId": GREEN_TAXI_TABLE_NAME_TEMPLATE,
       },
       "externalDataConfiguration": {
         "sourceFormat": "PARQUET",
-        "sourceUris": [f"gs://{BUCKET}/{YELLOW_TAXI_GCS_PATH_TEMPLATE}"],
+        "sourceUris": [f"gs://{BUCKET}/{GREEN_TAXI_GCS_PATH_TEMPLATE}"],
       },
     },
   )

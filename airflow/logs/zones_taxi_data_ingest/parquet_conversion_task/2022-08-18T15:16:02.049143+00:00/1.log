@@ -1,0 +1,22 @@
+[2022-08-18 15:16:04,279] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: zones_taxi_data_ingest.parquet_conversion_task manual__2022-08-18T15:16:02.049143+00:00 [queued]>
+[2022-08-18 15:16:04,288] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: zones_taxi_data_ingest.parquet_conversion_task manual__2022-08-18T15:16:02.049143+00:00 [queued]>
+[2022-08-18 15:16:04,288] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 15:16:04,288] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-08-18 15:16:04,288] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 15:16:04,299] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): parquet_conversion_task> on 2022-08-18 15:16:02.049143+00:00
+[2022-08-18 15:16:04,304] {standard_task_runner.py:52} INFO - Started process 18894 to run task
+[2022-08-18 15:16:04,306] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'zones_taxi_data_ingest', 'parquet_conversion_task', 'manual__2022-08-18T15:16:02.049143+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/zones_data_ingest.py', '--cfg-path', '/tmp/tmpi2ozxyux', '--error-file', '/tmp/tmp3jxwtkhi']
+[2022-08-18 15:16:04,307] {standard_task_runner.py:77} INFO - Job 140: Subtask parquet_conversion_task
+[2022-08-18 15:16:04,345] {logging_mixin.py:109} INFO - Running <TaskInstance: zones_taxi_data_ingest.parquet_conversion_task manual__2022-08-18T15:16:02.049143+00:00 [running]> on host 18f0cb155a4e
+[2022-08-18 15:16:04,384] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=zones_taxi_data_ingest
+AIRFLOW_CTX_TASK_ID=parquet_conversion_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T15:16:02.049143+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-18T15:16:02.049143+00:00
+[2022-08-18 15:16:04,543] {python.py:175} INFO - Done. Returned value was: None
+[2022-08-18 15:16:04,551] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=zones_taxi_data_ingest, task_id=parquet_conversion_task, execution_date=20220818T151602, start_date=20220818T151604, end_date=20220818T151604
+[2022-08-18 15:16:04,599] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-08-18 15:16:04,626] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
