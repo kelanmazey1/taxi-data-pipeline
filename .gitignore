@@ -2,3 +2,4 @@ ny_taxi_postgres_data
 yellow_tripdata_2021-01.csv
 .ipynb_checkpoints
 output.csv
+airflow/logs/
