@@ -1,0 +1,143 @@
+[2022-09-01 14:53:48,908] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.test manual__2022-09-01T14:53:47.495202+00:00 [queued]>
+[2022-09-01 14:53:48,917] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.test manual__2022-09-01T14:53:47.495202+00:00 [queued]>
+[2022-09-01 14:53:48,917] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-01 14:53:48,917] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-09-01 14:53:48,917] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-01 14:53:48,928] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): test> on 2022-09-01 14:53:47.495202+00:00
+[2022-09-01 14:53:48,933] {standard_task_runner.py:52} INFO - Started process 1058 to run task
+[2022-09-01 14:53:48,935] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'test', 'manual__2022-09-01T14:53:47.495202+00:00', '--job-id', '346', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq_dag.py', '--cfg-path', '/tmp/tmpshtdq20m', '--error-file', '/tmp/tmp3_m8y6qe']
+[2022-09-01 14:53:48,935] {standard_task_runner.py:77} INFO - Job 346: Subtask test
+[2022-09-01 14:53:48,979] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.test manual__2022-09-01T14:53:47.495202+00:00 [running]> on host 6aef44a1cff5
+[2022-09-01 14:53:49,024] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=test
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-01T14:53:47.495202+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-01T14:53:47.495202+00:00
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,025] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,026] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,026] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,026] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 14:53:49,026] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-09-01 14:53:58,263] {gcs.py:311} INFO - File downloaded to /tmp/tmpsniv75riyellow_tripdata_2019-01.parquet
+[2022-09-01 14:54:00,410] {logging_mixin.py:109} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7696617 entries, 0 to 7696616
+Data columns (total 19 columns):
+ #   Column                 Dtype         
+---  ------                 -----         
+ 0   VendorID               int64         
+ 1   tpep_pickup_datetime   datetime64[ns]
+ 2   tpep_dropoff_datetime  datetime64[ns]
+ 3   passenger_count        float64       
+ 4   trip_distance          float64       
+ 5   RatecodeID             float64       
+ 6   store_and_fwd_flag     object        
+ 7   PULocationID           int64         
+ 8   DOLocationID           int64         
+ 9   payment_type           int64         
+ 10  fare_amount            float64       
+ 11  extra                  float64       
+ 12  mta_tax                float64       
+ 13  tip_amount             float64       
+ 14  tolls_amount           float64       
+ 15  improvement_surcharge  float64       
+ 16  total_amount           float64       
+ 17  congestion_surcharge   float64       
+ 18  airport_fee            object        
+dtypes: datetime64[ns](2), float64(11), int64(4), object(2)
+memory usage: 1.1+ GB
+[2022-09-01 14:54:00,410] {logging_mixin.py:109} INFO - None
+[2022-09-01 14:54:08,021] {gcs.py:311} INFO - File downloaded to /tmp/tmp9dvbwnf9yellow_tripdata_2020-01.parquet
+[2022-09-01 14:54:11,071] {logging_mixin.py:109} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 6405008 entries, 0 to 6405007
+Data columns (total 19 columns):
+ #   Column                 Dtype         
+---  ------                 -----         
+ 0   VendorID               int64         
+ 1   tpep_pickup_datetime   datetime64[ns]
+ 2   tpep_dropoff_datetime  datetime64[ns]
+ 3   passenger_count        float64       
+ 4   trip_distance          float64       
+ 5   RatecodeID             float64       
+ 6   store_and_fwd_flag     object        
+ 7   PULocationID           int64         
+ 8   DOLocationID           int64         
+ 9   payment_type           int64         
+ 10  fare_amount            float64       
+ 11  extra                  float64       
+ 12  mta_tax                float64       
+ 13  tip_amount             float64       
+ 14  tolls_amount           float64       
+ 15  improvement_surcharge  float64       
+ 16  total_amount           float64       
+ 17  congestion_surcharge   float64       
+ 18  airport_fee            object        
+dtypes: datetime64[ns](2), float64(11), int64(4), object(2)
+memory usage: 928.5+ MB
+[2022-09-01 14:54:11,071] {logging_mixin.py:109} INFO - None
+[2022-09-01 14:54:12,914] {gcs.py:311} INFO - File downloaded to /tmp/tmpwbhgi15zyellow_tripdata_2021-01.parquet
+[2022-09-01 14:54:13,364] {logging_mixin.py:109} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1369769 entries, 0 to 1369768
+Data columns (total 19 columns):
+ #   Column                 Non-Null Count    Dtype         
+---  ------                 --------------    -----         
+ 0   VendorID               1369769 non-null  int64         
+ 1   tpep_pickup_datetime   1369769 non-null  datetime64[ns]
+ 2   tpep_dropoff_datetime  1369769 non-null  datetime64[ns]
+ 3   passenger_count        1271417 non-null  float64       
+ 4   trip_distance          1369769 non-null  float64       
+ 5   RatecodeID             1271417 non-null  float64       
+ 6   store_and_fwd_flag     1271417 non-null  object        
+ 7   PULocationID           1369769 non-null  int64         
+ 8   DOLocationID           1369769 non-null  int64         
+ 9   payment_type           1369769 non-null  int64         
+ 10  fare_amount            1369769 non-null  float64       
+ 11  extra                  1369769 non-null  float64       
+ 12  mta_tax                1369769 non-null  float64       
+ 13  tip_amount             1369769 non-null  float64       
+ 14  tolls_amount           1369769 non-null  float64       
+ 15  improvement_surcharge  1369769 non-null  float64       
+ 16  total_amount           1369769 non-null  float64       
+ 17  congestion_surcharge   1271417 non-null  float64       
+ 18  airport_fee            5 non-null        float64       
+dtypes: datetime64[ns](2), float64(12), int64(4), object(1)
+memory usage: 198.6+ MB
+[2022-09-01 14:54:13,364] {logging_mixin.py:109} INFO - None
+[2022-09-01 14:54:13,370] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-01 14:54:13,380] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=test, execution_date=20220901T145347, start_date=20220901T145348, end_date=20220901T145413
+[2022-09-01 14:54:13,441] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-01 14:54:13,468] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,151 @@
+[2022-09-02 13:46:41,157] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [queued]>
+[2022-09-02 13:46:41,163] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [queued]>
+[2022-09-02 13:46:41,163] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-02 13:46:41,163] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-09-02 13:46:41,163] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-02 13:46:41,174] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): create_bq_query> on 2022-09-02 13:44:24.787187+00:00
+[2022-09-02 13:46:41,179] {standard_task_runner.py:52} INFO - Started process 17537 to run task
+[2022-09-02 13:46:41,181] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'create_bq_query', 'manual__2022-09-02T13:44:24.787187+00:00', '--job-id', '389', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq_dag.py', '--cfg-path', '/tmp/tmpifaj9uau', '--error-file', '/tmp/tmppp2afpde']
+[2022-09-02 13:46:41,182] {standard_task_runner.py:77} INFO - Job 389: Subtask create_bq_query
+[2022-09-02 13:46:41,223] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [running]> on host 6aef44a1cff5
+[2022-09-02 13:46:41,261] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=create_bq_query
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-02T13:44:24.787187+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-02T13:44:24.787187+00:00
+[2022-09-02 13:46:41,265] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.ProgrammingError: can't adapt type 'PythonOperator'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/gcs_2_bq_dag.py", line 37, in create_query
+    files = ti.xcom_pull(key='file_list', task_ids=get_gcs_file_list)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2210, in xcom_pull
+    xcom = query.with_entities(XCom.value).first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.ProgrammingError) can't adapt type 'PythonOperator'
+[SQL: SELECT xcom.value AS xcom_value 
+FROM xcom 
+WHERE xcom.key = %(key_1)s AND xcom.task_id = %(task_id_1)s AND xcom.dag_id = %(dag_id_1)s AND xcom.execution_date = %(execution_date_1)s ORDER BY xcom.execution_date DESC, xcom.timestamp DESC 
+ LIMIT %(param_1)s]
+[parameters: {'key_1': 'file_list', 'task_id_1': <Task(PythonOperator): get_gcs_file_list>, 'dag_id_1': 'gcs_2_bq_dag', 'execution_date_1': datetime.datetime(2022, 9, 2, 13, 44, 24, 787187, tzinfo=Timezone('UTC')), 'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2022-09-02 13:46:41,289] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=gcs_2_bq_dag, task_id=create_bq_query, execution_date=20220902T134424, start_date=20220902T134641, end_date=20220902T134641
+[2022-09-02 13:46:41,301] {standard_task_runner.py:92} ERROR - Failed to execute job 389 for task create_bq_query
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.ProgrammingError: can't adapt type 'PythonOperator'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/gcs_2_bq_dag.py", line 37, in create_query
+    files = ti.xcom_pull(key='file_list', task_ids=get_gcs_file_list)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2210, in xcom_pull
+    xcom = query.with_entities(XCom.value).first()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.ProgrammingError) can't adapt type 'PythonOperator'
+[SQL: SELECT xcom.value AS xcom_value 
+FROM xcom 
+WHERE xcom.key = %(key_1)s AND xcom.task_id = %(task_id_1)s AND xcom.dag_id = %(dag_id_1)s AND xcom.execution_date = %(execution_date_1)s ORDER BY xcom.execution_date DESC, xcom.timestamp DESC 
+ LIMIT %(param_1)s]
+[parameters: {'key_1': 'file_list', 'task_id_1': <Task(PythonOperator): get_gcs_file_list>, 'dag_id_1': 'gcs_2_bq_dag', 'execution_date_1': datetime.datetime(2022, 9, 2, 13, 44, 24, 787187, tzinfo=Timezone('UTC')), 'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2022-09-02 13:46:41,313] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-09-02 13:46:41,343] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

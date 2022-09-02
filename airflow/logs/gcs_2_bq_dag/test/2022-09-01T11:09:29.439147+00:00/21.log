@@ -1,0 +1,86 @@
+[2022-09-01 13:15:21,574] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.test manual__2022-09-01T11:09:29.439147+00:00 [queued]>
+[2022-09-01 13:15:21,581] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.test manual__2022-09-01T11:09:29.439147+00:00 [queued]>
+[2022-09-01 13:15:21,581] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-01 13:15:21,581] {taskinstance.py:1239} INFO - Starting attempt 21 of 21
+[2022-09-01 13:15:21,581] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-01 13:15:21,592] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): test> on 2022-09-01 11:09:29.439147+00:00
+[2022-09-01 13:15:21,597] {standard_task_runner.py:52} INFO - Started process 562 to run task
+[2022-09-01 13:15:21,599] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'test', 'manual__2022-09-01T11:09:29.439147+00:00', '--job-id', '331', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq_dag.py', '--cfg-path', '/tmp/tmpoj623a3j', '--error-file', '/tmp/tmpoukw5nw5']
+[2022-09-01 13:15:21,600] {standard_task_runner.py:77} INFO - Job 331: Subtask test
+[2022-09-01 13:15:21,639] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.test manual__2022-09-01T11:09:29.439147+00:00 [running]> on host 6aef44a1cff5
+[2022-09-01 13:15:21,674] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=test
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-01T11:09:29.439147+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-01T11:09:29.439147+00:00
+[2022-09-01 13:15:21,676] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,676] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,676] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,676] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,676] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,676] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,677] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,677] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,677] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,677] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,677] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,677] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-01 13:15:21,678] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-09-01 13:15:30,589] {gcs.py:311} INFO - File downloaded to /tmp/tmp1742djsuyellow_tripdata_2019-01.parquet
+[2022-09-01 13:15:31,320] {logging_mixin.py:109} INFO -    VendorID tpep_pickup_datetime  ... congestion_surcharge  airport_fee
+0         1  2019-01-01 00:46:40  ...                  NaN         None
+1         1  2019-01-01 00:59:47  ...                  NaN         None
+2         2  2018-12-21 13:48:30  ...                  NaN         None
+3         2  2018-11-28 15:52:25  ...                  NaN         None
+4         2  2018-11-28 15:56:57  ...                  NaN         None
+
+[5 rows x 19 columns]
+[2022-09-01 13:15:38,888] {gcs.py:311} INFO - File downloaded to /tmp/tmppsjzyasuyellow_tripdata_2020-01.parquet
+[2022-09-01 13:15:39,686] {logging_mixin.py:109} INFO -    VendorID tpep_pickup_datetime  ... congestion_surcharge  airport_fee
+0         1  2020-01-01 00:28:15  ...                  2.5         None
+1         1  2020-01-01 00:35:39  ...                  2.5         None
+2         1  2020-01-01 00:47:41  ...                  2.5         None
+3         1  2020-01-01 00:55:23  ...                  0.0         None
+4         2  2020-01-01 00:01:58  ...                  0.0         None
+
+[5 rows x 19 columns]
+[2022-09-01 13:15:41,507] {gcs.py:311} INFO - File downloaded to /tmp/tmpjwugf3zryellow_tripdata_2021-01.parquet
+[2022-09-01 13:15:41,670] {logging_mixin.py:109} INFO -    VendorID tpep_pickup_datetime  ... congestion_surcharge  airport_fee
+0         1  2021-01-01 00:30:10  ...                  2.5          NaN
+1         1  2021-01-01 00:51:20  ...                  0.0          NaN
+2         1  2021-01-01 00:43:30  ...                  0.0          NaN
+3         1  2021-01-01 00:15:48  ...                  0.0          NaN
+4         2  2021-01-01 00:31:49  ...                  2.5          NaN
+
+[5 rows x 19 columns]
+[2022-09-01 13:15:41,675] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-01 13:15:41,687] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=test, execution_date=20220901T110929, start_date=20220901T131521, end_date=20220901T131541
+[2022-09-01 13:15:41,743] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-01 13:15:41,772] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,22 @@
+[2022-08-31 14:36:49,820] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_ingest.local_to_gcs_task manual__2022-08-31T14:36:38+00:00 [queued]>
+[2022-08-31 14:36:49,829] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_ingest.local_to_gcs_task manual__2022-08-31T14:36:38+00:00 [queued]>
+[2022-08-31 14:36:49,829] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-31 14:36:49,829] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-08-31 14:36:49,829] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-31 14:36:49,842] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2022-08-31 14:36:38+00:00
+[2022-08-31 14:36:49,847] {standard_task_runner.py:52} INFO - Started process 4992 to run task
+[2022-08-31 14:36:49,849] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_ingest', 'local_to_gcs_task', 'manual__2022-08-31T14:36:38+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_data_ingest_dag.py', '--cfg-path', '/tmp/tmp_3pm80xi', '--error-file', '/tmp/tmpvtfdiz8o']
+[2022-08-31 14:36:49,850] {standard_task_runner.py:77} INFO - Job 189: Subtask local_to_gcs_task
+[2022-08-31 14:36:49,893] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_ingest.local_to_gcs_task manual__2022-08-31T14:36:38+00:00 [running]> on host 0aad59a5352b
+[2022-08-31 14:36:49,944] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_ingest
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-31T14:36:38+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-31T14:36:38+00:00
+[2022-08-31 14:37:45,480] {python.py:175} INFO - Done. Returned value was: None
+[2022-08-31 14:37:45,488] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_ingest, task_id=local_to_gcs_task, execution_date=20220831T143638, start_date=20220831T143649, end_date=20220831T143745
+[2022-08-31 14:37:45,537] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-08-31 14:37:45,560] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

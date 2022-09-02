@@ -1,0 +1,34 @@
+[2022-08-31 15:36:59,363] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.gcs_to_gcs_yellow_task manual__2022-08-31T15:36:58.002198+00:00 [queued]>
+[2022-08-31 15:36:59,369] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.gcs_to_gcs_yellow_task manual__2022-08-31T15:36:58.002198+00:00 [queued]>
+[2022-08-31 15:36:59,369] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-31 15:36:59,369] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-08-31 15:36:59,369] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-31 15:36:59,379] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_to_gcs_yellow_task> on 2022-08-31 15:36:58.002198+00:00
+[2022-08-31 15:36:59,383] {standard_task_runner.py:52} INFO - Started process 7734 to run task
+[2022-08-31 15:36:59,385] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'gcs_to_gcs_yellow_task', 'manual__2022-08-31T15:36:58.002198+00:00', '--job-id', '207', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq_dag.py', '--cfg-path', '/tmp/tmpcr8kzz52', '--error-file', '/tmp/tmp60y972ka']
+[2022-08-31 15:36:59,386] {standard_task_runner.py:77} INFO - Job 207: Subtask gcs_to_gcs_yellow_task
+[2022-08-31 15:36:59,422] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.gcs_to_gcs_yellow_task manual__2022-08-31T15:36:58.002198+00:00 [running]> on host 0aad59a5352b
+[2022-08-31 15:36:59,462] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=gcs_to_gcs_yellow_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-31T15:36:58.002198+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-31T15:36:58.002198+00:00
+[2022-08-31 15:36:59,463] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-08-31 15:36:59,463] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-08-31 15:36:59,821] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_polynomial-land/raw/yellow_tripdata/2019-01/yellow_tripdata_2019-01.parquet to gs://dtc_data_lake_polynomial-land/yellow/yellow_tripdata_2019-01.parquet
+[2022-08-31 15:36:59,981] {gcs.py:251} INFO - Total Bytes: 110439634 | Bytes Written: 110439634
+[2022-08-31 15:36:59,981] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019-01/yellow_tripdata_2019-01.parquet in bucket dtc_data_lake_polynomial-land rewritten to object yellow/yellow_tripdata_2019-01.parquet in bucket dtc_data_lake_polynomial-land
+[2022-08-31 15:36:59,981] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-08-31 15:37:00,049] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_polynomial-land/raw/yellow_tripdata/2020-01/yellow_tripdata_2020-01.parquet to gs://dtc_data_lake_polynomial-land/yellow/yellow_tripdata_2020-01.parquet
+[2022-08-31 15:37:00,152] {gcs.py:251} INFO - Total Bytes: 93562858 | Bytes Written: 93562858
+[2022-08-31 15:37:00,152] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020-01/yellow_tripdata_2020-01.parquet in bucket dtc_data_lake_polynomial-land rewritten to object yellow/yellow_tripdata_2020-01.parquet in bucket dtc_data_lake_polynomial-land
+[2022-08-31 15:37:00,152] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-08-31 15:37:00,257] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_polynomial-land/raw/yellow_tripdata/2021-01/yellow_tripdata_2021-01.parquet to gs://dtc_data_lake_polynomial-land/yellow/yellow_tripdata_2021-01.parquet
+[2022-08-31 15:37:00,355] {gcs.py:251} INFO - Total Bytes: 21686067 | Bytes Written: 21686067
+[2022-08-31 15:37:00,355] {gcs.py:264} INFO - Object raw/yellow_tripdata/2021-01/yellow_tripdata_2021-01.parquet in bucket dtc_data_lake_polynomial-land rewritten to object yellow/yellow_tripdata_2021-01.parquet in bucket dtc_data_lake_polynomial-land
+[2022-08-31 15:37:00,365] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=gcs_to_gcs_yellow_task, execution_date=20220831T153658, start_date=20220831T153659, end_date=20220831T153700
+[2022-08-31 15:37:00,401] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-08-31 15:37:00,437] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

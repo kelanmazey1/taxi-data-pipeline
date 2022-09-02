@@ -1,0 +1,69 @@
+[2022-09-02 13:44:28,576] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [queued]>
+[2022-09-02 13:44:28,583] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [queued]>
+[2022-09-02 13:44:28,583] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-02 13:44:28,583] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-09-02 13:44:28,583] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-02 13:44:28,593] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): create_bq_query> on 2022-09-02 13:44:24.787187+00:00
+[2022-09-02 13:44:28,597] {standard_task_runner.py:52} INFO - Started process 17429 to run task
+[2022-09-02 13:44:28,599] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'create_bq_query', 'manual__2022-09-02T13:44:24.787187+00:00', '--job-id', '386', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq_dag.py', '--cfg-path', '/tmp/tmpmdmx_62b', '--error-file', '/tmp/tmpvh05jdld']
+[2022-09-02 13:44:28,600] {standard_task_runner.py:77} INFO - Job 386: Subtask create_bq_query
+[2022-09-02 13:44:28,638] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [running]> on host 6aef44a1cff5
+[2022-09-02 13:44:28,678] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=create_bq_query
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-02T13:44:24.787187+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-02T13:44:24.787187+00:00
+[2022-09-02 13:44:28,679] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/gcs_2_bq_dag.py", line 37, in create_query
+    files = ti.xcom_pull(key='file_list', task=get_gcs_file_list)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+TypeError: xcom_pull() got an unexpected keyword argument 'task'
+[2022-09-02 13:44:28,686] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=gcs_2_bq_dag, task_id=create_bq_query, execution_date=20220902T134424, start_date=20220902T134428, end_date=20220902T134428
+[2022-09-02 13:44:28,697] {standard_task_runner.py:92} ERROR - Failed to execute job 386 for task create_bq_query
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/gcs_2_bq_dag.py", line 37, in create_query
+    files = ti.xcom_pull(key='file_list', task=get_gcs_file_list)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+TypeError: xcom_pull() got an unexpected keyword argument 'task'
+[2022-09-02 13:44:28,731] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-09-02 13:44:28,758] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

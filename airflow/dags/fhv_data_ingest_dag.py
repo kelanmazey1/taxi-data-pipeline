@@ -15,9 +15,9 @@ PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
 # Below line used if wanting to pass in custom date variable, using other way for course homework
-# dataset_file = "fhv_tripdata_{{ dag_run.conf['date'] }}.parquet"
+dataset_file = "fhv_tripdata_{{ dag_run.conf['date'] }}.parquet"
 # dataset_file = "fhv_tripdata_{{ execution_date.strftime('%Y-%m') }}.parquet"
-# dataset_url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
+dataset_url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
 
 AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", "trips_data_all")
@@ -51,10 +51,10 @@ default_args = {
 
 URL_PREFIX = 'https://d37ci6vzurychx.cloudfront.net/trip-data'
 
-FHV_TAXI_URL_TEMPLATE = URL_PREFIX + '/fhv_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
-FHV_TAXI_FILE_TEMPLATE = AIRFLOW_HOME + '/fhv_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
-FHV_TAXI_GCS_PATH_TEMPLATE = "raw/fhv_tripdata/{{ execution_date.strftime(\'%Y-%m\') }}/fhv_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet"
-FHV_TAXI_TABLE_NAME_TEMPLATE = "fhv_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}"
+FHV_TAXI_URL_TEMPLATE = URL_PREFIX + "/" + dataset_file
+FHV_TAXI_FILE_TEMPLATE = AIRFLOW_HOME + "/fhv_tripdata_{{ dag_run.conf['date'] }}.csv"
+FHV_TAXI_GCS_PATH_TEMPLATE = "raw/fhv_tripdata/{{ dag_run.conf['date'] }}/fhv_tripdata_{{ dag_run.conf['date'] }}.csv"
+FHV_TAXI_TABLE_NAME_TEMPLATE = "fhv_tripdata_{{ dag_run.conf['date'] }}"
 
 # DAG declaration using a context manager
 with DAG(

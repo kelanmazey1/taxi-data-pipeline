@@ -51,10 +51,10 @@ default_args = {
 
 URL_PREFIX = 'https://d37ci6vzurychx.cloudfront.net/trip-data'
 
-YELLOW_TAXI_URL_TEMPLATE = URL_PREFIX + '/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
-YELLOW_TAXI_FILE_TEMPLATE = AIRFLOW_HOME + '/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
-YELLOW_TAXI_GCS_PATH_TEMPLATE = "raw/yellow_tripdata/{{ execution_date.strftime(\'%Y-%m\') }}/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.parquet"
-YELLOW_TAXI_TABLE_NAME_TEMPLATE = "yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}"
+YELLOW_TAXI_URL_TEMPLATE = URL_PREFIX + "/yellow_tripdata_{{ dag_run.conf['date'] }}.parquet"
+YELLOW_TAXI_FILE_TEMPLATE = AIRFLOW_HOME + "/yellow_tripdata_{{ dag_run.conf['date'] }}.parquet"
+YELLOW_TAXI_GCS_PATH_TEMPLATE = "raw/yellow_tripdata/{{ dag_run.conf['date'] }}/yellow_tripdata_{{ dag_run.conf['date'] }}.parquet"
+YELLOW_TAXI_TABLE_NAME_TEMPLATE = "yellow_tripdata_{{ dag_run.conf['date'] }}"
 
 # DAG declaration using a context manager
 with DAG(

@@ -3951,3 +3951,24 @@
 [2022-08-18 15:16:28,173] {logging_mixin.py:109} INFO - [2022-08-18 15:16:28,173] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-08-18 15:16:28,183] {logging_mixin.py:109} INFO - [2022-08-18 15:16:28,183] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2022-08-01T01:00:00+00:00
 [2022-08-18 15:16:28,193] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingest_dag.py took 0.473 seconds
+[2022-08-18 15:16:58,895] {processor.py:163} INFO - Started process (PID=2008) to work on /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:16:58,896] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingest_dag.py for tasks to queue
+[2022-08-18 15:16:58,896] {logging_mixin.py:109} INFO - [2022-08-18 15:16:58,896] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:16:59,347] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:16:59,353] {logging_mixin.py:109} INFO - [2022-08-18 15:16:59,353] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 15:16:59,363] {logging_mixin.py:109} INFO - [2022-08-18 15:16:59,363] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2022-08-01T01:00:00+00:00
+[2022-08-18 15:16:59,372] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingest_dag.py took 0.479 seconds
+[2022-08-18 15:17:29,516] {processor.py:163} INFO - Started process (PID=2078) to work on /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:17:29,520] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingest_dag.py for tasks to queue
+[2022-08-18 15:17:29,520] {logging_mixin.py:109} INFO - [2022-08-18 15:17:29,520] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:17:29,981] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:17:29,987] {logging_mixin.py:109} INFO - [2022-08-18 15:17:29,987] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 15:17:29,998] {logging_mixin.py:109} INFO - [2022-08-18 15:17:29,998] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2022-08-01T01:00:00+00:00
+[2022-08-18 15:17:30,008] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingest_dag.py took 0.494 seconds
+[2022-08-18 15:18:00,732] {processor.py:163} INFO - Started process (PID=2157) to work on /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:18:00,733] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellow_taxi_data_ingest_dag.py for tasks to queue
+[2022-08-18 15:18:00,733] {logging_mixin.py:109} INFO - [2022-08-18 15:18:00,733] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:18:01,245] {processor.py:654} INFO - DAG(s) dict_keys(['yellow_taxi_data_ingest']) retrieved from /opt/airflow/dags/yellow_taxi_data_ingest_dag.py
+[2022-08-18 15:18:01,251] {logging_mixin.py:109} INFO - [2022-08-18 15:18:01,251] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-18 15:18:01,262] {logging_mixin.py:109} INFO - [2022-08-18 15:18:01,262] {dag.py:2935} INFO - Setting next_dagrun for yellow_taxi_data_ingest to 2022-08-01T01:00:00+00:00
+[2022-08-18 15:18:01,271] {processor.py:171} INFO - Processing /opt/airflow/dags/yellow_taxi_data_ingest_dag.py took 0.542 seconds

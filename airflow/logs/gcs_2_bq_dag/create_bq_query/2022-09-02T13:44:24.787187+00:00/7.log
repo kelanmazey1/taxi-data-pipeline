@@ -1,0 +1,22 @@
+[2022-09-02 14:02:33,054] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [queued]>
+[2022-09-02 14:02:33,061] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [queued]>
+[2022-09-02 14:02:33,061] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-02 14:02:33,061] {taskinstance.py:1239} INFO - Starting attempt 7 of 7
+[2022-09-02 14:02:33,062] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-02 14:02:33,071] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): create_bq_query> on 2022-09-02 13:44:24.787187+00:00
+[2022-09-02 14:02:33,076] {standard_task_runner.py:52} INFO - Started process 18313 to run task
+[2022-09-02 14:02:33,078] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'create_bq_query', 'manual__2022-09-02T13:44:24.787187+00:00', '--job-id', '410', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq_dag.py', '--cfg-path', '/tmp/tmppk5ppv_b', '--error-file', '/tmp/tmpbrj8lirq']
+[2022-09-02 14:02:33,078] {standard_task_runner.py:77} INFO - Job 410: Subtask create_bq_query
+[2022-09-02 14:02:33,115] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.create_bq_query manual__2022-09-02T13:44:24.787187+00:00 [running]> on host 6aef44a1cff5
+[2022-09-02 14:02:33,152] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=create_bq_query
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-02T13:44:24.787187+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-02T13:44:24.787187+00:00
+[2022-09-02 14:02:33,168] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-02 14:02:33,175] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=create_bq_query, execution_date=20220902T134424, start_date=20220902T140233, end_date=20220902T140233
+[2022-09-02 14:02:33,210] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-02 14:02:33,237] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
