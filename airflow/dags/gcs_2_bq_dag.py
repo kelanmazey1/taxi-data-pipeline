@@ -16,7 +16,7 @@ BUCKET = os.environ.get("GCP_GCS_BUCKET")
 AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", "trips_data_all")
 
-def get_file_list(ti):
+def get_file_list(colour, ti):
   hook = GCSHook()
   list = hook.list(
     bucket_name=BUCKET
@@ -25,36 +25,37 @@ def get_file_list(ti):
   file_list = []
 
   for file in list:
-    if file.startswith('yellow') and file.endswith('.parquet'):
+    print(file)
+    if file.startswith(f"{colour}/{colour}") and file.endswith('.parquet'):
       file_list.append(file)
-  ti.xcom_push(key='file_list', value=file_list)
+  ti.xcom_push(key=f'file_list_{colour}', value=file_list)
 
-def create_query(ti):
-  files = ti.xcom_pull(key='file_list', task_ids='get_gcs_file_list')
+def create_query(colour, ds_col, ti):
+  files = ti.xcom_pull(key=f'file_list_{colour}', task_ids=f'get_gcs_file_list_{colour}')
   QUERY_P1 = f"""
-            DROP TABLE IF EXISTS polynomial-land.trips_data_all.temp_table; 
-            LOAD DATA INTO polynomial-land.trips_data_all.temp_table 
+            DROP TABLE IF EXISTS polynomial-land.trips_data_all.temp_table_{colour}; 
+            LOAD DATA INTO polynomial-land.trips_data_all.temp_table_{colour} 
             FROM FILES ( 
               format = 'PARQUET', 
               uris = ['gs://{BUCKET}/"""
   QUERY_P2 = f"""'] 
             );
 
-            INSERT INTO polynomial-land.trips_data_all.yellow_external_table(
-              VendorID,
-              tpep_pickup_datetime,
-              tpep_dropoff_datetime,
-              passenger_count,
-              trip_distance,
-              RatecodeID,
-              store_and_fwd_flag,
-              PULocationID,
-              DOLocationID,
-              payment_type,
-              fare_amount,
-              extra,
-              mta_tax,
-              tip_amount
+            INSERT INTO polynomial-land.trips_data_all.{colour}_trip_table(
+              VendorID
+              ,{ds_col['pickup']}
+              ,{ds_col['dropoff']}
+              ,passenger_count
+              ,trip_distance
+              ,RatecodeID
+              ,store_and_fwd_flag
+              ,PULocationID
+              ,DOLocationID
+              ,payment_type
+              ,fare_amount
+              ,extra
+              ,mta_tax
+              ,tip_amount
               ,tolls_amount
               ,improvement_surcharge
               ,total_amount
@@ -62,32 +63,43 @@ def create_query(ti):
               ,airport_fee
               )
                 SELECT 
-                VendorID,
-              tpep_pickup_datetime,
-              tpep_dropoff_datetime,
-              passenger_count,
-              trip_distance,
-              RatecodeID,
-              store_and_fwd_flag,
-              PULocationID,
-              DOLocationID,
-              payment_type,
-              fare_amount,
-              extra,
-              mta_tax,
-              tip_amount,
-              tolls_amount,
-              improvement_surcharge,
-              total_amount,
-              congestion_surcharge,
-              CAST(airport_fee AS FLOAT64) as airport_fee
-            FROM polynomial-land.trips_data_all.temp_table;
+                  VendorID
+                  ,{ds_col['pickup']}
+                  ,{ds_col['dropoff']}
+                  ,passenger_count
+                  ,trip_distance
+                  ,RatecodeID
+                  ,store_and_fwd_flag
+                  ,PULocationID
+                  ,DOLocationID
+                  ,payment_type
+                  ,fare_amount
+                  ,extra
+                  ,mta_tax
+                  ,tip_amount
+                  ,tolls_amount
+                  ,improvement_surcharge
+                  ,total_amount
+                  ,congestion_surcharge
+                  {ds_col['airport']}
+            FROM polynomial-land.trips_data_all.temp_table_{colour};
   """
   COMBINED_QUERY=""
   for file in files:
     COMBINED_QUERY+=QUERY_P1 + file + QUERY_P2
   
-  ti.xcom_push(key="query", value=COMBINED_QUERY)
+  ti.xcom_push(key=f"{colour}_query", value=COMBINED_QUERY)
+
+COLOUR_RANGE = {
+  'yellow': {
+    'pickup': 'tpep_pickup_datetime',
+    'dropoff': 'tpep_dropoff_datetime',
+    'airport': ',CAST(airport_fee AS FLOAT64) as airport_fee'},
+  'green': {
+    'pickup': 'lpep_pickup_datetime',
+    'dropoff': 'lpep_dropoff_datetime',
+    'airport': ',NULL as airport_fee'}
+    }
 
 default_args = {
   "owner": "airflow",
@@ -104,89 +116,84 @@ with DAG(
   max_active_runs=3,
   tags=['dtc-de'],
 ) as dag:
-      
-  gcs_2_gcs_task = GCSToGCSOperator(
-    task_id="gcs_to_gcs_yellow_task",
-    source_bucket=BUCKET,
-    source_objects=['gs://raw2/*'],
-    destination_bucket=BUCKET,
-    destination_object="yellow/",
-    move_object=False
-  )
 
-  get_gcs_file_list = PythonOperator(
-    task_id="get_gcs_file_list",
-    python_callable=get_file_list,
-  )
-
-  create_bq_query = PythonOperator(
-    task_id="create_bq_query",
-    python_callable=create_query,
-  )
-
-  gcs_2_bq_empty_table_task = BigQueryCreateEmptyTableOperator(
-      task_id="gcs_2_bq_empty_table_task",
-      project_id=PROJECT_ID,
-      dataset_id=BIGQUERY_DATASET,
-      table_id="yellow_external_table",
-      schema_fields=[
-          {"name": "VendorID", "type":	"INTEGER", "mode":	"NULLABLE"},
-          {"name": "tpep_pickup_datetime", "type":	"TIMESTAMP",	"mode":	"NULLABLE"},
-          {"name": "tpep_dropoff_datetime",	"type": "TIMESTAMP", "mode":	"NULLABLE"},
-          {"name": "store_and_fwd_flag", "type":	"STRING",	"mode":	"NULLABLE"},
-          {"name": "RatecodeID", "type": "FLOAT",	"mode":	"NULLABLE"},
-          {"name": "PULocationID", "type": "INTEGER",	"mode":	"NULLABLE"},
-          {"name": "DOLocationID", "type":"INTEGER",	"mode":	"NULLABLE"},
-          {"name": "passenger_count", "type":"FLOAT",	"mode":	"NULLABLE"},
-          {"name": "trip_distance", "type":"FLOAT",	"mode":	"NULLABLE"},
-          {"name": "fare_amount", "type": "FLOAT",	"mode":	"NULLABLE"},
-          {"name": "extra", "type": "FLOAT",	"mode":	"NULLABLE"},
-          {"name": "mta_tax", "type":"FLOAT",	"mode":	"NULLABLE"},
-          {"name": "tip_amount", "type":"FLOAT",	"mode":	"NULLABLE"},
-          {"name": "tolls_amount", "type":"FLOAT",	"mode":	"NULLABLE"},
-          {"name": "ehail_fee",	"type":"INTEGER",	"mode":	"NULLABLE"},
-          {"name": "improvement_surcharge", "type":	"FLOAT",	"mode":	"NULLABLE"},
-          {"name": "total_amount", "type":"FLOAT",	"mode":	"NULLABLE"},
-          {"name": "payment_type", "type":"INTEGER",	"mode":	"NULLABLE"},
-          {"name": "trip_type",	"type":"FLOAT",	"mode":	"NULLABLE"},
-          {"name": "congestion_surcharge",	"type": "FLOAT", "mode": "NULLABLE"},
-          {"name": "airport_fee",	"type": "FLOAT", "mode": "NULLABLE"}
-      ]    
+  for colour, ds_col in COLOUR_RANGE.items():
+    gcs_2_gcs_task = GCSToGCSOperator(
+      task_id=f"gcs_to_gcs_{colour}_task",
+      source_bucket=BUCKET,
+      source_objects=[f'raw2/{colour}/*'],
+      destination_bucket=BUCKET,
+      destination_object=f"{colour}/",
+      move_object=False
     )
 
+    get_gcs_file_list = PythonOperator(
+      task_id=f"get_gcs_file_list_{colour}",
+      python_callable=get_file_list,
+      op_kwargs={"colour": colour}
+    )
 
-  # INSERT_QUERY = "LOAD DATA INTO polynomial-land.trips_data_all.yellow_external_table \
-  #  FROM FILES ( \
-  #   format = 'PARQUET', \
-  #   uris = ['gs://dtc_data_lake_polynomial-land/raw2/*'] \
-  # )"
+    create_bq_query = PythonOperator(
+      task_id=f"create_bq_query_{colour}",
+      python_callable=create_query,
+      op_kwargs={"colour": colour, "ds_col": ds_col}
+    )
 
-  gcs_2_bq_populate_table = BigQueryInsertJobOperator(
-    task_id="gcs_2_bq_populate_table",
-    configuration={
-      "query": {
-        "query": "{{ task_instance.xcom_pull(task_ids='create_bq_query', key='query') }}",
-        "useLegacySql": False,
+    gcs_2_bq_empty_table_task = BigQueryCreateEmptyTableOperator(
+        task_id=f"gcs_2_bq_empty_table_task_{colour}",
+        project_id=PROJECT_ID,
+        dataset_id=BIGQUERY_DATASET,
+        table_id=f"{colour}_trip_table",
+        schema_fields=[
+            {"name": "VendorID", "type":	"INTEGER", "mode":	"NULLABLE"},
+            {"name": ds_col['pickup'], "type":	"TIMESTAMP",	"mode":	"NULLABLE"},
+            {"name": ds_col['dropoff'],	"type": "TIMESTAMP", "mode":	"NULLABLE"},
+            {"name": "store_and_fwd_flag", "type":	"STRING",	"mode":	"NULLABLE"},
+            {"name": "RatecodeID", "type": "FLOAT",	"mode":	"NULLABLE"},
+            {"name": "PULocationID", "type": "INTEGER",	"mode":	"NULLABLE"},
+            {"name": "DOLocationID", "type":"INTEGER",	"mode":	"NULLABLE"},
+            {"name": "passenger_count", "type":"FLOAT",	"mode":	"NULLABLE"},
+            {"name": "trip_distance", "type":"FLOAT",	"mode":	"NULLABLE"},
+            {"name": "fare_amount", "type": "FLOAT",	"mode":	"NULLABLE"},
+            {"name": "extra", "type": "FLOAT",	"mode":	"NULLABLE"},
+            {"name": "mta_tax", "type":"FLOAT",	"mode":	"NULLABLE"},
+            {"name": "tip_amount", "type":"FLOAT",	"mode":	"NULLABLE"},
+            {"name": "tolls_amount", "type":"FLOAT",	"mode":	"NULLABLE"},
+            {"name": "ehail_fee",	"type":"INTEGER",	"mode":	"NULLABLE"},
+            {"name": "improvement_surcharge", "type":	"FLOAT",	"mode":	"NULLABLE"},
+            {"name": "total_amount", "type":"FLOAT",	"mode":	"NULLABLE"},
+            {"name": "payment_type", "type":"INTEGER",	"mode":	"NULLABLE"},
+            {"name": "trip_type",	"type":"FLOAT",	"mode":	"NULLABLE"},
+            {"name": "congestion_surcharge",	"type": "FLOAT", "mode": "NULLABLE"},
+            {"name": "airport_fee",	"type": "FLOAT", "mode": "NULLABLE"}
+        ]    
+      )
+
+    gcs_2_bq_populate_table = BigQueryInsertJobOperator(
+      task_id=f"gcs_2_bq_populate_table_{colour}",
+      configuration={
+        "query": {
+          "query": f"{{{{ task_instance.xcom_pull(task_ids='create_bq_query_{colour}', key='{colour}_query') }}}}",
+          "useLegacySql": False,
+        }
       }
-    }
-  )
-  
+    )
 
-  
-  # CREATE_PART_TBL_QUERY = (
-  #   f"CREATE OR REPLACE TABLE {PROJECT_ID}.{BIGQUERY_DATASET}.yellow_trip_data_partitioned \
-  #   PARTITION BY \
-  #   DATE(tpep_pickup_datetime) AS \
-  #   SELECT * FROM {PROJECT_ID}.{BIGQUERY_DATASET}.yellow_external_table"
-  # )
+    CREATE_PART_TBL_QUERY = (
+      f"CREATE OR REPLACE TABLE {PROJECT_ID}.{BIGQUERY_DATASET}.{colour}_trip_data_partitioned \
+      PARTITION BY \
+      DATE({ds_col['pickup']}) AS \
+      SELECT * FROM {PROJECT_ID}.{BIGQUERY_DATASET}.{colour}_trip_table"
+    )
 
-  # bq_external_2_part_task = BigQueryInsertJobOperator(
-  #   task_id="bq_external_2_part_task",
-  #   configuration={
-  #     "query": {
-  #       "query": CREATE_PART_TBL_QUERY,
-  #       "useLegacySql": False,
-  #     }
-  #   }
-  # )
-  gcs_2_gcs_task >> get_gcs_file_list >> create_bq_query >> gcs_2_bq_empty_table_task >> gcs_2_bq_populate_table #>> bq_partition_task
+    bq_2_part_task = BigQueryInsertJobOperator(
+      task_id=f"bq_2_part_task_{colour}",
+      configuration={
+        "query": {
+          "query": CREATE_PART_TBL_QUERY,
+          "useLegacySql": False,
+        }
+      }
+    )
+
+    gcs_2_gcs_task >> get_gcs_file_list >> create_bq_query >> gcs_2_bq_empty_table_task >> gcs_2_bq_populate_table >> bq_2_part_task
